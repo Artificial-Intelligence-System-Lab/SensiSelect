@@ -1,0 +1,1351 @@
+{
+  "close": {
+    "n_pairs": 43,
+    "n_pairs_sampled": 43,
+    "n_pairs_valid": 43,
+    "n_pairs_by_task": {
+      "l1_mpki": 43,
+      "l1i_mpki": 43,
+      "l2_mpki": 43,
+      "l2_miss_rate": 43,
+      "cpi": 43,
+      "rob_stall": 43,
+      "branch_mpki": 43
+    },
+    "l0_range": "0-10",
+    "mean_l0": 3.3,
+    "metrics": {
+      "l1_mpki": {
+        "model": {
+          "mean_delta": 0.0186,
+          "recall@1%": 0.4869,
+          "ndcg@1%": 0.4669,
+          "recall@5%": 0.6453,
+          "ndcg@5%": 0.5069,
+          "recall@10%": 0.7239,
+          "ndcg@10%": 0.534
+        },
+        "regressor": {
+          "mean_delta": 0.0186,
+          "recall@1%": 0.5274,
+          "ndcg@1%": 0.4786,
+          "recall@5%": 0.6191,
+          "ndcg@5%": 0.487,
+          "recall@10%": 0.6755,
+          "ndcg@10%": 0.498
+        },
+        "simpoint": {
+          "mean_delta": 0.0186,
+          "recall@1%": 0.0102,
+          "ndcg@1%": 0.0575,
+          "recall@5%": 0.0556,
+          "ndcg@5%": 0.1045,
+          "recall@10%": 0.1263,
+          "ndcg@10%": 0.1395
+        },
+        "random": {
+          "mean_delta": 0.0186,
+          "recall@1%": 0.0095,
+          "ndcg@1%": 0.0507,
+          "recall@5%": 0.0497,
+          "ndcg@5%": 0.0778,
+          "recall@10%": 0.0977,
+          "ndcg@10%": 0.0985
+        },
+        "seqpred": {
+          "mean_delta": 0.0186,
+          "recall@1%": 0.3443,
+          "ndcg@1%": 0.2052,
+          "recall@5%": 0.4311,
+          "ndcg@5%": 0.2695,
+          "recall@10%": 0.5356,
+          "ndcg@10%": 0.3087
+        }
+      },
+      "l1i_mpki": {
+        "model": {
+          "mean_delta": 0.0073,
+          "recall@1%": 0.4419,
+          "ndcg@1%": 0.395,
+          "recall@5%": 0.6803,
+          "ndcg@5%": 0.4815,
+          "recall@10%": 0.7347,
+          "ndcg@10%": 0.5224
+        },
+        "regressor": {
+          "mean_delta": 0.0073,
+          "recall@1%": 0.4621,
+          "ndcg@1%": 0.3624,
+          "recall@5%": 0.5989,
+          "ndcg@5%": 0.4151,
+          "recall@10%": 0.6736,
+          "ndcg@10%": 0.4656
+        },
+        "simpoint": {
+          "mean_delta": 0.0073,
+          "recall@1%": 0.0063,
+          "ndcg@1%": 0.0236,
+          "recall@5%": 0.0317,
+          "ndcg@5%": 0.0413,
+          "recall@10%": 0.1015,
+          "ndcg@10%": 0.0677
+        },
+        "random": {
+          "mean_delta": 0.0073,
+          "recall@1%": 0.0114,
+          "ndcg@1%": 0.0379,
+          "recall@5%": 0.0514,
+          "ndcg@5%": 0.0541,
+          "recall@10%": 0.1009,
+          "ndcg@10%": 0.0737
+        },
+        "seqpred": {
+          "mean_delta": 0.0075,
+          "recall@1%": 0.3633,
+          "ndcg@1%": 0.2738,
+          "recall@5%": 0.5091,
+          "ndcg@5%": 0.3111,
+          "recall@10%": 0.5891,
+          "ndcg@10%": 0.3535
+        }
+      },
+      "l2_mpki": {
+        "model": {
+          "mean_delta": 0.0593,
+          "recall@1%": 0.533,
+          "ndcg@1%": 0.4855,
+          "recall@5%": 0.6627,
+          "ndcg@5%": 0.5274,
+          "recall@10%": 0.7282,
+          "ndcg@10%": 0.5443
+        },
+        "regressor": {
+          "mean_delta": 0.0593,
+          "recall@1%": 0.607,
+          "ndcg@1%": 0.5047,
+          "recall@5%": 0.6982,
+          "ndcg@5%": 0.5527,
+          "recall@10%": 0.758,
+          "ndcg@10%": 0.5682
+        },
+        "simpoint": {
+          "mean_delta": 0.0593,
+          "recall@1%": 0.0136,
+          "ndcg@1%": 0.0527,
+          "recall@5%": 0.0492,
+          "ndcg@5%": 0.0871,
+          "recall@10%": 0.1202,
+          "ndcg@10%": 0.1199
+        },
+        "random": {
+          "mean_delta": 0.0593,
+          "recall@1%": 0.0086,
+          "ndcg@1%": 0.0518,
+          "recall@5%": 0.0502,
+          "ndcg@5%": 0.0731,
+          "recall@10%": 0.0983,
+          "ndcg@10%": 0.0932
+        },
+        "seqpred": {
+          "mean_delta": 0.0588,
+          "recall@1%": 0.4816,
+          "ndcg@1%": 0.3613,
+          "recall@5%": 0.5504,
+          "ndcg@5%": 0.4133,
+          "recall@10%": 0.6167,
+          "ndcg@10%": 0.4363
+        }
+      },
+      "l2_miss_rate": {
+        "model": {
+          "mean_delta": 0.0824,
+          "recall@1%": 0.4223,
+          "ndcg@1%": 0.481,
+          "recall@5%": 0.5079,
+          "ndcg@5%": 0.5161,
+          "recall@10%": 0.5641,
+          "ndcg@10%": 0.5422
+        },
+        "regressor": {
+          "mean_delta": 0.0824,
+          "recall@1%": 0.4486,
+          "ndcg@1%": 0.4689,
+          "recall@5%": 0.5187,
+          "ndcg@5%": 0.5099,
+          "recall@10%": 0.543,
+          "ndcg@10%": 0.525
+        },
+        "simpoint": {
+          "mean_delta": 0.0824,
+          "recall@1%": 0.0099,
+          "ndcg@1%": 0.041,
+          "recall@5%": 0.0572,
+          "ndcg@5%": 0.0742,
+          "recall@10%": 0.1243,
+          "ndcg@10%": 0.114
+        },
+        "random": {
+          "mean_delta": 0.0824,
+          "recall@1%": 0.01,
+          "ndcg@1%": 0.0425,
+          "recall@5%": 0.0504,
+          "ndcg@5%": 0.0664,
+          "recall@10%": 0.0999,
+          "ndcg@10%": 0.0912
+        },
+        "seqpred": {
+          "mean_delta": 0.0798,
+          "recall@1%": 0.3809,
+          "ndcg@1%": 0.4059,
+          "recall@5%": 0.4065,
+          "ndcg@5%": 0.4215,
+          "recall@10%": 0.4315,
+          "ndcg@10%": 0.4405
+        }
+      },
+      "cpi": {
+        "model": {
+          "mean_delta": 0.0668,
+          "recall@1%": 0.5108,
+          "ndcg@1%": 0.5435,
+          "recall@5%": 0.5179,
+          "ndcg@5%": 0.5642,
+          "recall@10%": 0.5592,
+          "ndcg@10%": 0.5785
+        },
+        "regressor": {
+          "mean_delta": 0.0668,
+          "recall@1%": 0.5296,
+          "ndcg@1%": 0.5754,
+          "recall@5%": 0.5082,
+          "ndcg@5%": 0.5863,
+          "recall@10%": 0.5451,
+          "ndcg@10%": 0.5938
+        },
+        "simpoint": {
+          "mean_delta": 0.0668,
+          "recall@1%": 0.0152,
+          "ndcg@1%": 0.0607,
+          "recall@5%": 0.0442,
+          "ndcg@5%": 0.0935,
+          "recall@10%": 0.0837,
+          "ndcg@10%": 0.1118
+        },
+        "random": {
+          "mean_delta": 0.0668,
+          "recall@1%": 0.0105,
+          "ndcg@1%": 0.0481,
+          "recall@5%": 0.0497,
+          "ndcg@5%": 0.0883,
+          "recall@10%": 0.0977,
+          "ndcg@10%": 0.1206
+        },
+        "seqpred": {
+          "mean_delta": 0.0669,
+          "recall@1%": 0.3881,
+          "ndcg@1%": 0.4509,
+          "recall@5%": 0.3547,
+          "ndcg@5%": 0.4724,
+          "recall@10%": 0.4632,
+          "ndcg@10%": 0.4898
+        }
+      },
+      "rob_stall": {
+        "model": {
+          "mean_delta": 0.0538,
+          "recall@1%": 0.4267,
+          "ndcg@1%": 0.4041,
+          "recall@5%": 0.6411,
+          "ndcg@5%": 0.466,
+          "recall@10%": 0.6245,
+          "ndcg@10%": 0.4796
+        },
+        "regressor": {
+          "mean_delta": 0.0538,
+          "recall@1%": 0.466,
+          "ndcg@1%": 0.3709,
+          "recall@5%": 0.4948,
+          "ndcg@5%": 0.378,
+          "recall@10%": 0.5973,
+          "ndcg@10%": 0.4438
+        },
+        "simpoint": {
+          "mean_delta": 0.0538,
+          "recall@1%": 0.0106,
+          "ndcg@1%": 0.0387,
+          "recall@5%": 0.0308,
+          "ndcg@5%": 0.0488,
+          "recall@10%": 0.0683,
+          "ndcg@10%": 0.054
+        },
+        "random": {
+          "mean_delta": 0.0538,
+          "recall@1%": 0.0092,
+          "ndcg@1%": 0.0467,
+          "recall@5%": 0.0501,
+          "ndcg@5%": 0.0677,
+          "recall@10%": 0.0986,
+          "ndcg@10%": 0.0881
+        },
+        "seqpred": {
+          "mean_delta": 0.0539,
+          "recall@1%": 0.3399,
+          "ndcg@1%": 0.2262,
+          "recall@5%": 0.4571,
+          "ndcg@5%": 0.295,
+          "recall@10%": 0.5216,
+          "ndcg@10%": 0.3401
+        }
+      },
+      "branch_mpki": {
+        "model": {
+          "mean_delta": 0.0444,
+          "recall@1%": 0.3734,
+          "ndcg@1%": 0.5153,
+          "recall@5%": 0.5106,
+          "ndcg@5%": 0.5542,
+          "recall@10%": 0.5928,
+          "ndcg@10%": 0.5683
+        },
+        "regressor": {
+          "mean_delta": 0.0444,
+          "recall@1%": 0.327,
+          "ndcg@1%": 0.4285,
+          "recall@5%": 0.429,
+          "ndcg@5%": 0.4634,
+          "recall@10%": 0.5156,
+          "ndcg@10%": 0.4841
+        },
+        "simpoint": {
+          "mean_delta": 0.0444,
+          "recall@1%": 0.0095,
+          "ndcg@1%": 0.0418,
+          "recall@5%": 0.0484,
+          "ndcg@5%": 0.0719,
+          "recall@10%": 0.1164,
+          "ndcg@10%": 0.1011
+        },
+        "random": {
+          "mean_delta": 0.0444,
+          "recall@1%": 0.0096,
+          "ndcg@1%": 0.0484,
+          "recall@5%": 0.0511,
+          "ndcg@5%": 0.0753,
+          "recall@10%": 0.0997,
+          "ndcg@10%": 0.094
+        },
+        "seqpred": {
+          "mean_delta": 0.0446,
+          "recall@1%": 0.3043,
+          "ndcg@1%": 0.386,
+          "recall@5%": 0.3807,
+          "ndcg@5%": 0.4126,
+          "recall@10%": 0.4556,
+          "ndcg@10%": 0.433
+        }
+      }
+    },
+    "summary": {
+      "cache_mean": {
+        "model": {
+          "mean_delta": 0.0419,
+          "recall@1%": 0.471,
+          "ndcg@1%": 0.4571,
+          "recall@5%": 0.624,
+          "ndcg@5%": 0.508,
+          "recall@10%": 0.6877,
+          "ndcg@10%": 0.5357
+        },
+        "regressor": {
+          "mean_delta": 0.0419,
+          "recall@1%": 0.5113,
+          "ndcg@1%": 0.4536,
+          "recall@5%": 0.6087,
+          "ndcg@5%": 0.4912,
+          "recall@10%": 0.6625,
+          "ndcg@10%": 0.5142
+        },
+        "simpoint": {
+          "mean_delta": 0.0419,
+          "recall@1%": 0.01,
+          "ndcg@1%": 0.0437,
+          "recall@5%": 0.0484,
+          "ndcg@5%": 0.0768,
+          "recall@10%": 0.1181,
+          "ndcg@10%": 0.1103
+        },
+        "random": {
+          "mean_delta": 0.0419,
+          "recall@1%": 0.0099,
+          "ndcg@1%": 0.0457,
+          "recall@5%": 0.0504,
+          "ndcg@5%": 0.0678,
+          "recall@10%": 0.0992,
+          "ndcg@10%": 0.0892
+        },
+        "seqpred": {
+          "mean_delta": 0.0412,
+          "recall@1%": 0.3925,
+          "ndcg@1%": 0.3115,
+          "recall@5%": 0.4743,
+          "ndcg@5%": 0.3538,
+          "recall@10%": 0.5432,
+          "ndcg@10%": 0.3848
+        }
+      },
+      "nc_mean": {
+        "model": {
+          "recall@1%": 0.437,
+          "ndcg@1%": 0.4876,
+          "recall@5%": 0.5565,
+          "ndcg@5%": 0.5281,
+          "recall@10%": 0.5922,
+          "ndcg@10%": 0.5421
+        },
+        "regressor": {
+          "recall@1%": 0.4409,
+          "ndcg@1%": 0.4583,
+          "recall@5%": 0.4773,
+          "ndcg@5%": 0.4759,
+          "recall@10%": 0.5527,
+          "ndcg@10%": 0.5072
+        },
+        "simpoint": {
+          "recall@1%": 0.0118,
+          "ndcg@1%": 0.0471,
+          "recall@5%": 0.0411,
+          "ndcg@5%": 0.0714,
+          "recall@10%": 0.0895,
+          "ndcg@10%": 0.089
+        },
+        "random": {
+          "recall@1%": 0.0098,
+          "ndcg@1%": 0.0477,
+          "recall@5%": 0.0503,
+          "ndcg@5%": 0.0771,
+          "recall@10%": 0.0987,
+          "ndcg@10%": 0.1009
+        },
+        "seqpred": {
+          "recall@1%": 0.3441,
+          "ndcg@1%": 0.3544,
+          "recall@5%": 0.3975,
+          "ndcg@5%": 0.3933,
+          "recall@10%": 0.4801,
+          "ndcg@10%": 0.421
+        }
+      }
+    }
+  },
+  "medium": {
+    "n_pairs": 352,
+    "n_pairs_sampled": 352,
+    "n_pairs_valid": 352,
+    "n_pairs_by_task": {
+      "l1_mpki": 352,
+      "l1i_mpki": 352,
+      "l2_mpki": 352,
+      "l2_miss_rate": 352,
+      "cpi": 352,
+      "rob_stall": 352,
+      "branch_mpki": 352
+    },
+    "l0_range": "11-25",
+    "mean_l0": 20.1,
+    "metrics": {
+      "l1_mpki": {
+        "model": {
+          "mean_delta": 0.1175,
+          "recall@1%": 0.5117,
+          "ndcg@1%": 0.8441,
+          "recall@5%": 0.699,
+          "ndcg@5%": 0.8706,
+          "recall@10%": 0.7556,
+          "ndcg@10%": 0.8852
+        },
+        "regressor": {
+          "mean_delta": 0.1175,
+          "recall@1%": 0.5656,
+          "ndcg@1%": 0.8925,
+          "recall@5%": 0.7205,
+          "ndcg@5%": 0.8938,
+          "recall@10%": 0.7611,
+          "ndcg@10%": 0.9019
+        },
+        "simpoint": {
+          "mean_delta": 0.1175,
+          "recall@1%": 0.008,
+          "ndcg@1%": 0.0909,
+          "recall@5%": 0.0644,
+          "ndcg@5%": 0.1703,
+          "recall@10%": 0.1602,
+          "ndcg@10%": 0.2413
+        },
+        "random": {
+          "mean_delta": 0.1175,
+          "recall@1%": 0.0102,
+          "ndcg@1%": 0.0935,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.1321,
+          "recall@10%": 0.0998,
+          "ndcg@10%": 0.1684
+        },
+        "seqpred": {
+          "mean_delta": 0.1175,
+          "recall@1%": 0.3873,
+          "ndcg@1%": 0.7279,
+          "recall@5%": 0.4989,
+          "ndcg@5%": 0.7156,
+          "recall@10%": 0.5808,
+          "ndcg@10%": 0.7369
+        }
+      },
+      "l1i_mpki": {
+        "model": {
+          "mean_delta": 0.0648,
+          "recall@1%": 0.4052,
+          "ndcg@1%": 0.6196,
+          "recall@5%": 0.6789,
+          "ndcg@5%": 0.7734,
+          "recall@10%": 0.7526,
+          "ndcg@10%": 0.8081
+        },
+        "regressor": {
+          "mean_delta": 0.0648,
+          "recall@1%": 0.6434,
+          "ndcg@1%": 0.7879,
+          "recall@5%": 0.6433,
+          "ndcg@5%": 0.8055,
+          "recall@10%": 0.6814,
+          "ndcg@10%": 0.8258
+        },
+        "simpoint": {
+          "mean_delta": 0.0648,
+          "recall@1%": 0.0023,
+          "ndcg@1%": 0.043,
+          "recall@5%": 0.0528,
+          "ndcg@5%": 0.0695,
+          "recall@10%": 0.109,
+          "ndcg@10%": 0.1065
+        },
+        "random": {
+          "mean_delta": 0.0648,
+          "recall@1%": 0.0095,
+          "ndcg@1%": 0.037,
+          "recall@5%": 0.0495,
+          "ndcg@5%": 0.0631,
+          "recall@10%": 0.0993,
+          "ndcg@10%": 0.0887
+        },
+        "seqpred": {
+          "mean_delta": 0.0649,
+          "recall@1%": 0.161,
+          "ndcg@1%": 0.3356,
+          "recall@5%": 0.38,
+          "ndcg@5%": 0.4322,
+          "recall@10%": 0.4917,
+          "ndcg@10%": 0.49
+        }
+      },
+      "l2_mpki": {
+        "model": {
+          "mean_delta": 0.1751,
+          "recall@1%": 0.4573,
+          "ndcg@1%": 0.8846,
+          "recall@5%": 0.7087,
+          "ndcg@5%": 0.8957,
+          "recall@10%": 0.756,
+          "ndcg@10%": 0.9026
+        },
+        "regressor": {
+          "mean_delta": 0.1751,
+          "recall@1%": 0.6434,
+          "ndcg@1%": 0.9164,
+          "recall@5%": 0.7436,
+          "ndcg@5%": 0.9194,
+          "recall@10%": 0.7826,
+          "ndcg@10%": 0.9188
+        },
+        "simpoint": {
+          "mean_delta": 0.1751,
+          "recall@1%": 0.0078,
+          "ndcg@1%": 0.0802,
+          "recall@5%": 0.0486,
+          "ndcg@5%": 0.1306,
+          "recall@10%": 0.1179,
+          "ndcg@10%": 0.1738
+        },
+        "random": {
+          "mean_delta": 0.1751,
+          "recall@1%": 0.0098,
+          "ndcg@1%": 0.1013,
+          "recall@5%": 0.0493,
+          "ndcg@5%": 0.1285,
+          "recall@10%": 0.0997,
+          "ndcg@10%": 0.1559
+        },
+        "seqpred": {
+          "mean_delta": 0.175,
+          "recall@1%": 0.4574,
+          "ndcg@1%": 0.7973,
+          "recall@5%": 0.5794,
+          "ndcg@5%": 0.7982,
+          "recall@10%": 0.6176,
+          "ndcg@10%": 0.7926
+        }
+      },
+      "l2_miss_rate": {
+        "model": {
+          "mean_delta": 0.2844,
+          "recall@1%": 0.4737,
+          "ndcg@1%": 0.8446,
+          "recall@5%": 0.7127,
+          "ndcg@5%": 0.8613,
+          "recall@10%": 0.7927,
+          "ndcg@10%": 0.8783
+        },
+        "regressor": {
+          "mean_delta": 0.2844,
+          "recall@1%": 0.5474,
+          "ndcg@1%": 0.8789,
+          "recall@5%": 0.7514,
+          "ndcg@5%": 0.8954,
+          "recall@10%": 0.7851,
+          "ndcg@10%": 0.9012
+        },
+        "simpoint": {
+          "mean_delta": 0.2844,
+          "recall@1%": 0.0083,
+          "ndcg@1%": 0.0719,
+          "recall@5%": 0.0447,
+          "ndcg@5%": 0.11,
+          "recall@10%": 0.0921,
+          "ndcg@10%": 0.1456
+        },
+        "random": {
+          "mean_delta": 0.2844,
+          "recall@1%": 0.0097,
+          "ndcg@1%": 0.0976,
+          "recall@5%": 0.0502,
+          "ndcg@5%": 0.1259,
+          "recall@10%": 0.0996,
+          "ndcg@10%": 0.1543
+        },
+        "seqpred": {
+          "mean_delta": 0.2839,
+          "recall@1%": 0.4438,
+          "ndcg@1%": 0.7786,
+          "recall@5%": 0.6106,
+          "ndcg@5%": 0.7904,
+          "recall@10%": 0.6721,
+          "ndcg@10%": 0.7975
+        }
+      },
+      "cpi": {
+        "model": {
+          "mean_delta": 0.3462,
+          "recall@1%": 0.544,
+          "ndcg@1%": 0.8655,
+          "recall@5%": 0.7395,
+          "ndcg@5%": 0.9108,
+          "recall@10%": 0.7934,
+          "ndcg@10%": 0.9254
+        },
+        "regressor": {
+          "mean_delta": 0.3462,
+          "recall@1%": 0.6064,
+          "ndcg@1%": 0.9362,
+          "recall@5%": 0.7432,
+          "ndcg@5%": 0.9436,
+          "recall@10%": 0.785,
+          "ndcg@10%": 0.9464
+        },
+        "simpoint": {
+          "mean_delta": 0.3462,
+          "recall@1%": 0.0375,
+          "ndcg@1%": 0.1959,
+          "recall@5%": 0.0439,
+          "ndcg@5%": 0.2369,
+          "recall@10%": 0.0689,
+          "ndcg@10%": 0.272
+        },
+        "random": {
+          "mean_delta": 0.3462,
+          "recall@1%": 0.0105,
+          "ndcg@1%": 0.1639,
+          "recall@5%": 0.0494,
+          "ndcg@5%": 0.2336,
+          "recall@10%": 0.0998,
+          "ndcg@10%": 0.2855
+        },
+        "seqpred": {
+          "mean_delta": 0.3463,
+          "recall@1%": 0.3971,
+          "ndcg@1%": 0.8076,
+          "recall@5%": 0.5997,
+          "ndcg@5%": 0.8477,
+          "recall@10%": 0.6641,
+          "ndcg@10%": 0.8626
+        }
+      },
+      "rob_stall": {
+        "model": {
+          "mean_delta": 0.1987,
+          "recall@1%": 0.2058,
+          "ndcg@1%": 0.6344,
+          "recall@5%": 0.5645,
+          "ndcg@5%": 0.7171,
+          "recall@10%": 0.626,
+          "ndcg@10%": 0.7527
+        },
+        "regressor": {
+          "mean_delta": 0.1987,
+          "recall@1%": 0.3,
+          "ndcg@1%": 0.6576,
+          "recall@5%": 0.4955,
+          "ndcg@5%": 0.7059,
+          "recall@10%": 0.5711,
+          "ndcg@10%": 0.737
+        },
+        "simpoint": {
+          "mean_delta": 0.1987,
+          "recall@1%": 0.0087,
+          "ndcg@1%": 0.0649,
+          "recall@5%": 0.034,
+          "ndcg@5%": 0.077,
+          "recall@10%": 0.063,
+          "ndcg@10%": 0.0964
+        },
+        "random": {
+          "mean_delta": 0.1987,
+          "recall@1%": 0.0095,
+          "ndcg@1%": 0.0827,
+          "recall@5%": 0.049,
+          "ndcg@5%": 0.1106,
+          "recall@10%": 0.0999,
+          "ndcg@10%": 0.1407
+        },
+        "seqpred": {
+          "mean_delta": 0.1988,
+          "recall@1%": 0.1826,
+          "ndcg@1%": 0.4897,
+          "recall@5%": 0.3875,
+          "ndcg@5%": 0.5674,
+          "recall@10%": 0.4784,
+          "ndcg@10%": 0.6085
+        }
+      },
+      "branch_mpki": {
+        "model": {
+          "mean_delta": 0.1272,
+          "recall@1%": 0.485,
+          "ndcg@1%": 0.8074,
+          "recall@5%": 0.6631,
+          "ndcg@5%": 0.8499,
+          "recall@10%": 0.738,
+          "ndcg@10%": 0.8655
+        },
+        "regressor": {
+          "mean_delta": 0.1272,
+          "recall@1%": 0.6052,
+          "ndcg@1%": 0.8398,
+          "recall@5%": 0.6765,
+          "ndcg@5%": 0.8485,
+          "recall@10%": 0.7391,
+          "ndcg@10%": 0.8584
+        },
+        "simpoint": {
+          "mean_delta": 0.1272,
+          "recall@1%": 0.0024,
+          "ndcg@1%": 0.0797,
+          "recall@5%": 0.0518,
+          "ndcg@5%": 0.1309,
+          "recall@10%": 0.1192,
+          "ndcg@10%": 0.1807
+        },
+        "random": {
+          "mean_delta": 0.1272,
+          "recall@1%": 0.0097,
+          "ndcg@1%": 0.087,
+          "recall@5%": 0.0488,
+          "ndcg@5%": 0.1234,
+          "recall@10%": 0.0993,
+          "ndcg@10%": 0.1542
+        },
+        "seqpred": {
+          "mean_delta": 0.1272,
+          "recall@1%": 0.4758,
+          "ndcg@1%": 0.6886,
+          "recall@5%": 0.5709,
+          "ndcg@5%": 0.7374,
+          "recall@10%": 0.6261,
+          "ndcg@10%": 0.7517
+        }
+      }
+    },
+    "summary": {
+      "cache_mean": {
+        "model": {
+          "mean_delta": 0.1604,
+          "recall@1%": 0.462,
+          "ndcg@1%": 0.7982,
+          "recall@5%": 0.6998,
+          "ndcg@5%": 0.8503,
+          "recall@10%": 0.7642,
+          "ndcg@10%": 0.8685
+        },
+        "regressor": {
+          "mean_delta": 0.1604,
+          "recall@1%": 0.5999,
+          "ndcg@1%": 0.8689,
+          "recall@5%": 0.7147,
+          "ndcg@5%": 0.8785,
+          "recall@10%": 0.7525,
+          "ndcg@10%": 0.8869
+        },
+        "simpoint": {
+          "mean_delta": 0.1604,
+          "recall@1%": 0.0066,
+          "ndcg@1%": 0.0715,
+          "recall@5%": 0.0526,
+          "ndcg@5%": 0.1201,
+          "recall@10%": 0.1198,
+          "ndcg@10%": 0.1668
+        },
+        "random": {
+          "mean_delta": 0.1604,
+          "recall@1%": 0.0098,
+          "ndcg@1%": 0.0824,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.1124,
+          "recall@10%": 0.0996,
+          "ndcg@10%": 0.1418
+        },
+        "seqpred": {
+          "mean_delta": 0.1603,
+          "recall@1%": 0.3624,
+          "ndcg@1%": 0.6598,
+          "recall@5%": 0.5172,
+          "ndcg@5%": 0.6841,
+          "recall@10%": 0.5906,
+          "ndcg@10%": 0.7042
+        }
+      },
+      "nc_mean": {
+        "model": {
+          "recall@1%": 0.4116,
+          "ndcg@1%": 0.7691,
+          "recall@5%": 0.6557,
+          "ndcg@5%": 0.8259,
+          "recall@10%": 0.7191,
+          "ndcg@10%": 0.8479
+        },
+        "regressor": {
+          "recall@1%": 0.5039,
+          "ndcg@1%": 0.8112,
+          "recall@5%": 0.6384,
+          "ndcg@5%": 0.8327,
+          "recall@10%": 0.6984,
+          "ndcg@10%": 0.8473
+        },
+        "simpoint": {
+          "recall@1%": 0.0162,
+          "ndcg@1%": 0.1135,
+          "recall@5%": 0.0432,
+          "ndcg@5%": 0.1483,
+          "recall@10%": 0.0837,
+          "ndcg@10%": 0.183
+        },
+        "random": {
+          "recall@1%": 0.0099,
+          "ndcg@1%": 0.1112,
+          "recall@5%": 0.0491,
+          "ndcg@5%": 0.1559,
+          "recall@10%": 0.0997,
+          "ndcg@10%": 0.1935
+        },
+        "seqpred": {
+          "recall@1%": 0.3518,
+          "ndcg@1%": 0.662,
+          "recall@5%": 0.5194,
+          "ndcg@5%": 0.7175,
+          "recall@10%": 0.5895,
+          "ndcg@10%": 0.7409
+        }
+      }
+    }
+  },
+  "far": {
+    "n_pairs": 500,
+    "n_pairs_sampled": 500,
+    "n_pairs_valid": 500,
+    "n_pairs_by_task": {
+      "l1_mpki": 500,
+      "l1i_mpki": 500,
+      "l2_mpki": 500,
+      "l2_miss_rate": 500,
+      "cpi": 500,
+      "rob_stall": 500,
+      "branch_mpki": 500
+    },
+    "l0_range": "26-47",
+    "mean_l0": 33.5,
+    "metrics": {
+      "l1_mpki": {
+        "model": {
+          "mean_delta": 0.1764,
+          "recall@1%": 0.5033,
+          "ndcg@1%": 0.867,
+          "recall@5%": 0.6882,
+          "ndcg@5%": 0.8723,
+          "recall@10%": 0.7486,
+          "ndcg@10%": 0.8828
+        },
+        "regressor": {
+          "mean_delta": 0.1764,
+          "recall@1%": 0.5855,
+          "ndcg@1%": 0.9043,
+          "recall@5%": 0.7303,
+          "ndcg@5%": 0.8943,
+          "recall@10%": 0.7599,
+          "ndcg@10%": 0.8968
+        },
+        "simpoint": {
+          "mean_delta": 0.1764,
+          "recall@1%": 0.0047,
+          "ndcg@1%": 0.1033,
+          "recall@5%": 0.0697,
+          "ndcg@5%": 0.1839,
+          "recall@10%": 0.1653,
+          "ndcg@10%": 0.2568
+        },
+        "random": {
+          "mean_delta": 0.1764,
+          "recall@1%": 0.0093,
+          "ndcg@1%": 0.0996,
+          "recall@5%": 0.0494,
+          "ndcg@5%": 0.1368,
+          "recall@10%": 0.1,
+          "ndcg@10%": 0.1725
+        },
+        "seqpred": {
+          "mean_delta": 0.1764,
+          "recall@1%": 0.3872,
+          "ndcg@1%": 0.7214,
+          "recall@5%": 0.493,
+          "ndcg@5%": 0.7059,
+          "recall@10%": 0.561,
+          "ndcg@10%": 0.7213
+        }
+      },
+      "l1i_mpki": {
+        "model": {
+          "mean_delta": 0.2445,
+          "recall@1%": 0.5861,
+          "ndcg@1%": 0.8508,
+          "recall@5%": 0.7535,
+          "ndcg@5%": 0.8897,
+          "recall@10%": 0.8184,
+          "ndcg@10%": 0.9066
+        },
+        "regressor": {
+          "mean_delta": 0.2445,
+          "recall@1%": 0.6697,
+          "ndcg@1%": 0.8866,
+          "recall@5%": 0.7772,
+          "ndcg@5%": 0.9027,
+          "recall@10%": 0.8067,
+          "ndcg@10%": 0.9152
+        },
+        "simpoint": {
+          "mean_delta": 0.2445,
+          "recall@1%": 0.0042,
+          "ndcg@1%": 0.0401,
+          "recall@5%": 0.0523,
+          "ndcg@5%": 0.0733,
+          "recall@10%": 0.1167,
+          "ndcg@10%": 0.1115
+        },
+        "random": {
+          "mean_delta": 0.2445,
+          "recall@1%": 0.0096,
+          "ndcg@1%": 0.0461,
+          "recall@5%": 0.0499,
+          "ndcg@5%": 0.0701,
+          "recall@10%": 0.0999,
+          "ndcg@10%": 0.0949
+        },
+        "seqpred": {
+          "mean_delta": 0.2449,
+          "recall@1%": 0.4491,
+          "ndcg@1%": 0.6685,
+          "recall@5%": 0.6031,
+          "ndcg@5%": 0.7048,
+          "recall@10%": 0.6839,
+          "ndcg@10%": 0.7375
+        }
+      },
+      "l2_mpki": {
+        "model": {
+          "mean_delta": 0.2301,
+          "recall@1%": 0.4029,
+          "ndcg@1%": 0.8593,
+          "recall@5%": 0.6601,
+          "ndcg@5%": 0.8701,
+          "recall@10%": 0.7489,
+          "ndcg@10%": 0.8783
+        },
+        "regressor": {
+          "mean_delta": 0.2301,
+          "recall@1%": 0.5132,
+          "ndcg@1%": 0.8914,
+          "recall@5%": 0.6946,
+          "ndcg@5%": 0.8933,
+          "recall@10%": 0.7782,
+          "ndcg@10%": 0.8987
+        },
+        "simpoint": {
+          "mean_delta": 0.2301,
+          "recall@1%": 0.0093,
+          "ndcg@1%": 0.0966,
+          "recall@5%": 0.0481,
+          "ndcg@5%": 0.1519,
+          "recall@10%": 0.1123,
+          "ndcg@10%": 0.1946
+        },
+        "random": {
+          "mean_delta": 0.2301,
+          "recall@1%": 0.01,
+          "ndcg@1%": 0.1191,
+          "recall@5%": 0.0493,
+          "ndcg@5%": 0.1441,
+          "recall@10%": 0.1,
+          "ndcg@10%": 0.1704
+        },
+        "seqpred": {
+          "mean_delta": 0.2302,
+          "recall@1%": 0.3321,
+          "ndcg@1%": 0.7562,
+          "recall@5%": 0.5587,
+          "ndcg@5%": 0.7775,
+          "recall@10%": 0.6392,
+          "ndcg@10%": 0.7821
+        }
+      },
+      "l2_miss_rate": {
+        "model": {
+          "mean_delta": 0.4118,
+          "recall@1%": 0.3135,
+          "ndcg@1%": 0.85,
+          "recall@5%": 0.6201,
+          "ndcg@5%": 0.8478,
+          "recall@10%": 0.7399,
+          "ndcg@10%": 0.864
+        },
+        "regressor": {
+          "mean_delta": 0.4118,
+          "recall@1%": 0.4301,
+          "ndcg@1%": 0.9037,
+          "recall@5%": 0.6949,
+          "ndcg@5%": 0.8877,
+          "recall@10%": 0.7695,
+          "ndcg@10%": 0.8928
+        },
+        "simpoint": {
+          "mean_delta": 0.4118,
+          "recall@1%": 0.0082,
+          "ndcg@1%": 0.1051,
+          "recall@5%": 0.0439,
+          "ndcg@5%": 0.1415,
+          "recall@10%": 0.092,
+          "ndcg@10%": 0.1816
+        },
+        "random": {
+          "mean_delta": 0.4118,
+          "recall@1%": 0.0093,
+          "ndcg@1%": 0.1316,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.1566,
+          "recall@10%": 0.0998,
+          "ndcg@10%": 0.1846
+        },
+        "seqpred": {
+          "mean_delta": 0.4117,
+          "recall@1%": 0.3534,
+          "ndcg@1%": 0.7792,
+          "recall@5%": 0.5326,
+          "ndcg@5%": 0.7793,
+          "recall@10%": 0.6323,
+          "ndcg@10%": 0.789
+        }
+      },
+      "cpi": {
+        "model": {
+          "mean_delta": 0.4499,
+          "recall@1%": 0.5675,
+          "ndcg@1%": 0.8451,
+          "recall@5%": 0.6755,
+          "ndcg@5%": 0.8852,
+          "recall@10%": 0.7098,
+          "ndcg@10%": 0.8935
+        },
+        "regressor": {
+          "mean_delta": 0.4499,
+          "recall@1%": 0.61,
+          "ndcg@1%": 0.8835,
+          "recall@5%": 0.6634,
+          "ndcg@5%": 0.8933,
+          "recall@10%": 0.69,
+          "ndcg@10%": 0.8969
+        },
+        "simpoint": {
+          "mean_delta": 0.4499,
+          "recall@1%": 0.0273,
+          "ndcg@1%": 0.1724,
+          "recall@5%": 0.0456,
+          "ndcg@5%": 0.2321,
+          "recall@10%": 0.0718,
+          "ndcg@10%": 0.2677
+        },
+        "random": {
+          "mean_delta": 0.4499,
+          "recall@1%": 0.0092,
+          "ndcg@1%": 0.1565,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.2296,
+          "recall@10%": 0.0993,
+          "ndcg@10%": 0.2824
+        },
+        "seqpred": {
+          "mean_delta": 0.4502,
+          "recall@1%": 0.4351,
+          "ndcg@1%": 0.7781,
+          "recall@5%": 0.5463,
+          "ndcg@5%": 0.8058,
+          "recall@10%": 0.5777,
+          "ndcg@10%": 0.8127
+        }
+      },
+      "rob_stall": {
+        "model": {
+          "mean_delta": 0.3587,
+          "recall@1%": 0.157,
+          "ndcg@1%": 0.4826,
+          "recall@5%": 0.4096,
+          "ndcg@5%": 0.566,
+          "recall@10%": 0.5138,
+          "ndcg@10%": 0.6185
+        },
+        "regressor": {
+          "mean_delta": 0.3587,
+          "recall@1%": 0.1715,
+          "ndcg@1%": 0.4831,
+          "recall@5%": 0.3846,
+          "ndcg@5%": 0.5539,
+          "recall@10%": 0.5007,
+          "ndcg@10%": 0.6169
+        },
+        "simpoint": {
+          "mean_delta": 0.3587,
+          "recall@1%": 0.0084,
+          "ndcg@1%": 0.0733,
+          "recall@5%": 0.0378,
+          "ndcg@5%": 0.0835,
+          "recall@10%": 0.0645,
+          "ndcg@10%": 0.1018
+        },
+        "random": {
+          "mean_delta": 0.3587,
+          "recall@1%": 0.01,
+          "ndcg@1%": 0.0838,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.1133,
+          "recall@10%": 0.1001,
+          "ndcg@10%": 0.1438
+        },
+        "seqpred": {
+          "mean_delta": 0.3591,
+          "recall@1%": 0.1535,
+          "ndcg@1%": 0.4426,
+          "recall@5%": 0.3479,
+          "ndcg@5%": 0.5187,
+          "recall@10%": 0.4391,
+          "ndcg@10%": 0.5637
+        }
+      },
+      "branch_mpki": {
+        "model": {
+          "mean_delta": 0.1808,
+          "recall@1%": 0.4879,
+          "ndcg@1%": 0.842,
+          "recall@5%": 0.6849,
+          "ndcg@5%": 0.8761,
+          "recall@10%": 0.7658,
+          "ndcg@10%": 0.8925
+        },
+        "regressor": {
+          "mean_delta": 0.1808,
+          "recall@1%": 0.6017,
+          "ndcg@1%": 0.8556,
+          "recall@5%": 0.7194,
+          "ndcg@5%": 0.8784,
+          "recall@10%": 0.7708,
+          "ndcg@10%": 0.8877
+        },
+        "simpoint": {
+          "mean_delta": 0.1808,
+          "recall@1%": 0.006,
+          "ndcg@1%": 0.1074,
+          "recall@5%": 0.0527,
+          "ndcg@5%": 0.1497,
+          "recall@10%": 0.1295,
+          "ndcg@10%": 0.2068
+        },
+        "random": {
+          "mean_delta": 0.1808,
+          "recall@1%": 0.01,
+          "ndcg@1%": 0.1028,
+          "recall@5%": 0.0497,
+          "ndcg@5%": 0.137,
+          "recall@10%": 0.0996,
+          "ndcg@10%": 0.1665
+        },
+        "seqpred": {
+          "mean_delta": 0.1812,
+          "recall@1%": 0.4358,
+          "ndcg@1%": 0.7287,
+          "recall@5%": 0.5771,
+          "ndcg@5%": 0.7543,
+          "recall@10%": 0.6361,
+          "ndcg@10%": 0.7708
+        }
+      }
+    },
+    "summary": {
+      "cache_mean": {
+        "model": {
+          "mean_delta": 0.2657,
+          "recall@1%": 0.4515,
+          "ndcg@1%": 0.8568,
+          "recall@5%": 0.6805,
+          "ndcg@5%": 0.87,
+          "recall@10%": 0.764,
+          "ndcg@10%": 0.8829
+        },
+        "regressor": {
+          "mean_delta": 0.2657,
+          "recall@1%": 0.5496,
+          "ndcg@1%": 0.8965,
+          "recall@5%": 0.7242,
+          "ndcg@5%": 0.8945,
+          "recall@10%": 0.7786,
+          "ndcg@10%": 0.9009
+        },
+        "simpoint": {
+          "mean_delta": 0.2657,
+          "recall@1%": 0.0066,
+          "ndcg@1%": 0.0863,
+          "recall@5%": 0.0535,
+          "ndcg@5%": 0.1376,
+          "recall@10%": 0.1216,
+          "ndcg@10%": 0.1861
+        },
+        "random": {
+          "mean_delta": 0.2657,
+          "recall@1%": 0.0095,
+          "ndcg@1%": 0.0991,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.1269,
+          "recall@10%": 0.0999,
+          "ndcg@10%": 0.1556
+        },
+        "seqpred": {
+          "mean_delta": 0.2658,
+          "recall@1%": 0.3805,
+          "ndcg@1%": 0.7313,
+          "recall@5%": 0.5468,
+          "ndcg@5%": 0.7419,
+          "recall@10%": 0.6291,
+          "ndcg@10%": 0.7575
+        }
+      },
+      "nc_mean": {
+        "model": {
+          "recall@1%": 0.4041,
+          "ndcg@1%": 0.7232,
+          "recall@5%": 0.59,
+          "ndcg@5%": 0.7758,
+          "recall@10%": 0.6631,
+          "ndcg@10%": 0.8015
+        },
+        "regressor": {
+          "recall@1%": 0.4611,
+          "ndcg@1%": 0.7407,
+          "recall@5%": 0.5891,
+          "ndcg@5%": 0.7752,
+          "recall@10%": 0.6538,
+          "ndcg@10%": 0.8005
+        },
+        "simpoint": {
+          "recall@1%": 0.0139,
+          "ndcg@1%": 0.1177,
+          "recall@5%": 0.0454,
+          "ndcg@5%": 0.1551,
+          "recall@10%": 0.0886,
+          "ndcg@10%": 0.1921
+        },
+        "random": {
+          "recall@1%": 0.0097,
+          "ndcg@1%": 0.1144,
+          "recall@5%": 0.0496,
+          "ndcg@5%": 0.16,
+          "recall@10%": 0.0997,
+          "ndcg@10%": 0.1976
+        },
+        "seqpred": {
+          "recall@1%": 0.3415,
+          "ndcg@1%": 0.6498,
+          "recall@5%": 0.4904,
+          "ndcg@5%": 0.6929,
+          "recall@10%": 0.551,
+          "ndcg@10%": 0.7157
+        }
+      }
+    }
+  },
+  "_meta": {
+    "k_fractions": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "n_random_seeds": 10,
+    "n_simpoint_seeds": 5,
+    "tasks": [
+      "l1_mpki",
+      "l1i_mpki",
+      "l2_mpki",
+      "l2_miss_rate",
+      "cpi",
+      "rob_stall",
+      "branch_mpki"
+    ],
+    "strata": {
+      "close": [
+        0,
+        10
+      ],
+      "medium": [
+        11,
+        25
+      ],
+      "far": [
+        26,
+        47
+      ]
+    },
+    "checkpoint": "checkpoints/best_model.pth",
+    "regressor_checkpoint": "checkpoints/abs_only_regressor_hw_best_model.pth",
+    "score_source": "routed"
+  }
+}

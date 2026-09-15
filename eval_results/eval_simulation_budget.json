@@ -1,0 +1,3200 @@
+{
+  "checkpoint": "checkpoints/best_model.pth",
+  "regressor_checkpoint": "checkpoints/abs_only_regressor_hw_best_model.pth",
+  "K_values": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "tail_frac": 0.05,
+  "top_m": 3,
+  "max_intervals_per_pair": null,
+  "multi_selector": "max_ranknorm",
+  "pairwise": {
+    "overall": {
+      "cpi": {
+        "1": {
+          "model": 0.8775,
+          "regressor": 0.8,
+          "simpoint": 0.6035,
+          "random": 0.6555,
+          "seqpred": 0.81
+        },
+        "2": {
+          "model": 0.88,
+          "regressor": 0.8025,
+          "simpoint": 0.65,
+          "random": 0.6715,
+          "seqpred": 0.8175
+        },
+        "5": {
+          "model": 0.86,
+          "regressor": 0.805,
+          "simpoint": 0.7455,
+          "random": 0.736,
+          "seqpred": 0.84
+        },
+        "10": {
+          "model": 0.85,
+          "regressor": 0.8075,
+          "simpoint": 0.7825,
+          "random": 0.8025,
+          "seqpred": 0.8425
+        },
+        "20": {
+          "model": 0.84,
+          "regressor": 0.795,
+          "simpoint": 0.8565,
+          "random": 0.84,
+          "seqpred": 0.8425
+        },
+        "50": {
+          "model": 0.8325,
+          "regressor": 0.81,
+          "simpoint": 0.8535,
+          "random": 0.8625,
+          "seqpred": 0.8475
+        }
+      },
+      "branch_mpki": {
+        "1": {
+          "model": 0.8825,
+          "regressor": 0.86,
+          "simpoint": 0.848,
+          "random": 0.5555,
+          "seqpred": 0.85
+        },
+        "2": {
+          "model": 0.895,
+          "regressor": 0.8825,
+          "simpoint": 0.839,
+          "random": 0.7175,
+          "seqpred": 0.87
+        },
+        "5": {
+          "model": 0.9025,
+          "regressor": 0.9,
+          "simpoint": 0.8735,
+          "random": 0.8545,
+          "seqpred": 0.9075
+        },
+        "10": {
+          "model": 0.9,
+          "regressor": 0.9025,
+          "simpoint": 0.909,
+          "random": 0.8905,
+          "seqpred": 0.9125
+        },
+        "20": {
+          "model": 0.9025,
+          "regressor": 0.8825,
+          "simpoint": 0.9265,
+          "random": 0.9095,
+          "seqpred": 0.92
+        },
+        "50": {
+          "model": 0.8875,
+          "regressor": 0.885,
+          "simpoint": 0.93,
+          "random": 0.9245,
+          "seqpred": 0.9175
+        }
+      },
+      "l1_mpki": {
+        "1": {
+          "model": 0.897,
+          "regressor": 0.8819,
+          "simpoint": 0.7663,
+          "random": 0.6372,
+          "seqpred": 0.8291
+        },
+        "2": {
+          "model": 0.9045,
+          "regressor": 0.8894,
+          "simpoint": 0.8101,
+          "random": 0.7447,
+          "seqpred": 0.8643
+        },
+        "5": {
+          "model": 0.907,
+          "regressor": 0.8894,
+          "simpoint": 0.8417,
+          "random": 0.8,
+          "seqpred": 0.8794
+        },
+        "10": {
+          "model": 0.907,
+          "regressor": 0.8869,
+          "simpoint": 0.8533,
+          "random": 0.8472,
+          "seqpred": 0.8945
+        },
+        "20": {
+          "model": 0.9146,
+          "regressor": 0.9095,
+          "simpoint": 0.8804,
+          "random": 0.8578,
+          "seqpred": 0.8869
+        },
+        "50": {
+          "model": 0.9146,
+          "regressor": 0.9296,
+          "simpoint": 0.9196,
+          "random": 0.9121,
+          "seqpred": 0.907
+        }
+      },
+      "l1i_mpki": {
+        "1": {
+          "model": 0.8643,
+          "regressor": 0.902,
+          "simpoint": 0.4432,
+          "random": 0.295,
+          "seqpred": 0.9121
+        },
+        "2": {
+          "model": 0.897,
+          "regressor": 0.9146,
+          "simpoint": 0.6538,
+          "random": 0.4759,
+          "seqpred": 0.9196
+        },
+        "5": {
+          "model": 0.9246,
+          "regressor": 0.9271,
+          "simpoint": 0.8638,
+          "random": 0.6894,
+          "seqpred": 0.9121
+        },
+        "10": {
+          "model": 0.9271,
+          "regressor": 0.9271,
+          "simpoint": 0.8573,
+          "random": 0.8111,
+          "seqpred": 0.9171
+        },
+        "20": {
+          "model": 0.9347,
+          "regressor": 0.9271,
+          "simpoint": 0.8397,
+          "random": 0.8533,
+          "seqpred": 0.9121
+        },
+        "50": {
+          "model": 0.9322,
+          "regressor": 0.9221,
+          "simpoint": 0.902,
+          "random": 0.891,
+          "seqpred": 0.9146
+        }
+      },
+      "l2_mpki": {
+        "1": {
+          "model": 0.9146,
+          "regressor": 0.9221,
+          "simpoint": 0.6201,
+          "random": 0.6538,
+          "seqpred": 0.892
+        },
+        "2": {
+          "model": 0.9221,
+          "regressor": 0.9196,
+          "simpoint": 0.7648,
+          "random": 0.7387,
+          "seqpred": 0.892
+        },
+        "5": {
+          "model": 0.9322,
+          "regressor": 0.9271,
+          "simpoint": 0.8503,
+          "random": 0.8271,
+          "seqpred": 0.9196
+        },
+        "10": {
+          "model": 0.9246,
+          "regressor": 0.9271,
+          "simpoint": 0.8884,
+          "random": 0.8653,
+          "seqpred": 0.9221
+        },
+        "20": {
+          "model": 0.9296,
+          "regressor": 0.9322,
+          "simpoint": 0.9372,
+          "random": 0.907,
+          "seqpred": 0.9171
+        },
+        "50": {
+          "model": 0.9447,
+          "regressor": 0.9548,
+          "simpoint": 0.9533,
+          "random": 0.9497,
+          "seqpred": 0.9322
+        }
+      },
+      "rob_stall": {
+        "1": {
+          "model": 0.7663,
+          "regressor": 0.7362,
+          "simpoint": 0.6864,
+          "random": 0.705,
+          "seqpred": 0.7337
+        },
+        "2": {
+          "model": 0.7588,
+          "regressor": 0.7513,
+          "simpoint": 0.8302,
+          "random": 0.7714,
+          "seqpred": 0.7688
+        },
+        "5": {
+          "model": 0.7814,
+          "regressor": 0.7538,
+          "simpoint": 0.8231,
+          "random": 0.8271,
+          "seqpred": 0.7889
+        },
+        "10": {
+          "model": 0.7789,
+          "regressor": 0.7714,
+          "simpoint": 0.8638,
+          "random": 0.8764,
+          "seqpred": 0.8065
+        },
+        "20": {
+          "model": 0.794,
+          "regressor": 0.7889,
+          "simpoint": 0.9256,
+          "random": 0.8879,
+          "seqpred": 0.8317
+        },
+        "50": {
+          "model": 0.8015,
+          "regressor": 0.804,
+          "simpoint": 0.9327,
+          "random": 0.9276,
+          "seqpred": 0.8417
+        }
+      },
+      "lq_stall": {
+        "1": {
+          "model": 0.8844,
+          "regressor": 0.8643,
+          "simpoint": 0.4578,
+          "random": 0.4176,
+          "seqpred": 0.8291
+        },
+        "2": {
+          "model": 0.8894,
+          "regressor": 0.8668,
+          "simpoint": 0.791,
+          "random": 0.5608,
+          "seqpred": 0.8442
+        },
+        "5": {
+          "model": 0.8995,
+          "regressor": 0.8719,
+          "simpoint": 0.8327,
+          "random": 0.7482,
+          "seqpred": 0.8543
+        },
+        "10": {
+          "model": 0.9121,
+          "regressor": 0.8844,
+          "simpoint": 0.8548,
+          "random": 0.8231,
+          "seqpred": 0.8593
+        },
+        "20": {
+          "model": 0.9196,
+          "regressor": 0.8869,
+          "simpoint": 0.8889,
+          "random": 0.8719,
+          "seqpred": 0.8668
+        },
+        "50": {
+          "model": 0.9146,
+          "regressor": 0.902,
+          "simpoint": 0.9377,
+          "random": 0.9261,
+          "seqpred": 0.9095
+        }
+      },
+      "sq_stall": {
+        "1": {
+          "model": 0.8719,
+          "regressor": 0.8266,
+          "simpoint": 0.798,
+          "random": 0.499,
+          "seqpred": 0.8367
+        },
+        "2": {
+          "model": 0.8769,
+          "regressor": 0.8216,
+          "simpoint": 0.796,
+          "random": 0.6518,
+          "seqpred": 0.8492
+        },
+        "5": {
+          "model": 0.8719,
+          "regressor": 0.8392,
+          "simpoint": 0.7995,
+          "random": 0.7663,
+          "seqpred": 0.8593
+        },
+        "10": {
+          "model": 0.8744,
+          "regressor": 0.8518,
+          "simpoint": 0.8186,
+          "random": 0.7945,
+          "seqpred": 0.8543
+        },
+        "20": {
+          "model": 0.8819,
+          "regressor": 0.8543,
+          "simpoint": 0.7714,
+          "random": 0.8397,
+          "seqpred": 0.8769
+        },
+        "50": {
+          "model": 0.8945,
+          "regressor": 0.8844,
+          "simpoint": 0.8573,
+          "random": 0.8814,
+          "seqpred": 0.897
+        }
+      },
+      "l2_miss_rate": {
+        "1": {
+          "model": 0.78,
+          "regressor": 0.605,
+          "simpoint": 0.576,
+          "random": 0.616,
+          "seqpred": 0.755
+        },
+        "2": {
+          "model": 0.815,
+          "regressor": 0.62,
+          "simpoint": 0.7275,
+          "random": 0.672,
+          "seqpred": 0.77
+        },
+        "5": {
+          "model": 0.8175,
+          "regressor": 0.6125,
+          "simpoint": 0.742,
+          "random": 0.7305,
+          "seqpred": 0.775
+        },
+        "10": {
+          "model": 0.805,
+          "regressor": 0.6075,
+          "simpoint": 0.792,
+          "random": 0.782,
+          "seqpred": 0.785
+        },
+        "20": {
+          "model": 0.7775,
+          "regressor": 0.5875,
+          "simpoint": 0.827,
+          "random": 0.824,
+          "seqpred": 0.7875
+        },
+        "50": {
+          "model": 0.855,
+          "regressor": 0.7725,
+          "simpoint": 0.898,
+          "random": 0.8655,
+          "seqpred": 0.8125
+        }
+      },
+      "btb_miss_rate": {
+        "1": {
+          "model": 0.915,
+          "regressor": 0.8125,
+          "simpoint": 0.747,
+          "random": 0.4655,
+          "seqpred": 0.655
+        },
+        "2": {
+          "model": 0.9175,
+          "regressor": 0.8525,
+          "simpoint": 0.76,
+          "random": 0.6195,
+          "seqpred": 0.725
+        },
+        "5": {
+          "model": 0.94,
+          "regressor": 0.915,
+          "simpoint": 0.8235,
+          "random": 0.7755,
+          "seqpred": 0.77
+        },
+        "10": {
+          "model": 0.955,
+          "regressor": 0.91,
+          "simpoint": 0.856,
+          "random": 0.8335,
+          "seqpred": 0.7875
+        },
+        "20": {
+          "model": 0.9525,
+          "regressor": 0.9025,
+          "simpoint": 0.886,
+          "random": 0.8645,
+          "seqpred": 0.8475
+        },
+        "50": {
+          "model": 0.955,
+          "regressor": 0.91,
+          "simpoint": 0.9335,
+          "random": 0.9185,
+          "seqpred": 0.9
+        }
+      }
+    },
+    "hard": {
+      "cpi": {
+        "1": {
+          "model": 0.7313,
+          "regressor": 0.6866,
+          "simpoint": 0.4687,
+          "random": 0.5119,
+          "seqpred": 0.6791
+        },
+        "2": {
+          "model": 0.7388,
+          "regressor": 0.694,
+          "simpoint": 0.4627,
+          "random": 0.506,
+          "seqpred": 0.7164
+        },
+        "5": {
+          "model": 0.709,
+          "regressor": 0.6866,
+          "simpoint": 0.5343,
+          "random": 0.5552,
+          "seqpred": 0.7463
+        },
+        "10": {
+          "model": 0.7015,
+          "regressor": 0.694,
+          "simpoint": 0.6,
+          "random": 0.6597,
+          "seqpred": 0.7537
+        },
+        "20": {
+          "model": 0.7015,
+          "regressor": 0.6716,
+          "simpoint": 0.6896,
+          "random": 0.691,
+          "seqpred": 0.7537
+        },
+        "50": {
+          "model": 0.694,
+          "regressor": 0.694,
+          "simpoint": 0.7015,
+          "random": 0.6985,
+          "seqpred": 0.791
+        }
+      },
+      "branch_mpki": {
+        "1": {
+          "model": 0.7239,
+          "regressor": 0.6418,
+          "simpoint": 0.6522,
+          "random": 0.4493,
+          "seqpred": 0.6716
+        },
+        "2": {
+          "model": 0.7388,
+          "regressor": 0.709,
+          "simpoint": 0.6851,
+          "random": 0.5776,
+          "seqpred": 0.7313
+        },
+        "5": {
+          "model": 0.7612,
+          "regressor": 0.7761,
+          "simpoint": 0.6955,
+          "random": 0.7269,
+          "seqpred": 0.7537
+        },
+        "10": {
+          "model": 0.7537,
+          "regressor": 0.7836,
+          "simpoint": 0.7716,
+          "random": 0.7612,
+          "seqpred": 0.7761
+        },
+        "20": {
+          "model": 0.7612,
+          "regressor": 0.7239,
+          "simpoint": 0.8134,
+          "random": 0.7925,
+          "seqpred": 0.7985
+        },
+        "50": {
+          "model": 0.7537,
+          "regressor": 0.7388,
+          "simpoint": 0.8104,
+          "random": 0.797,
+          "seqpred": 0.7836
+        }
+      },
+      "l1_mpki": {
+        "1": {
+          "model": 0.7218,
+          "regressor": 0.7293,
+          "simpoint": 0.6271,
+          "random": 0.5263,
+          "seqpred": 0.6241
+        },
+        "2": {
+          "model": 0.7519,
+          "regressor": 0.7444,
+          "simpoint": 0.615,
+          "random": 0.6045,
+          "seqpred": 0.6617
+        },
+        "5": {
+          "model": 0.7594,
+          "regressor": 0.7444,
+          "simpoint": 0.6632,
+          "random": 0.6436,
+          "seqpred": 0.6917
+        },
+        "10": {
+          "model": 0.7669,
+          "regressor": 0.7444,
+          "simpoint": 0.7323,
+          "random": 0.7023,
+          "seqpred": 0.7218
+        },
+        "20": {
+          "model": 0.7895,
+          "regressor": 0.797,
+          "simpoint": 0.7188,
+          "random": 0.6857,
+          "seqpred": 0.6917
+        },
+        "50": {
+          "model": 0.7744,
+          "regressor": 0.8195,
+          "simpoint": 0.788,
+          "random": 0.7835,
+          "seqpred": 0.7444
+        }
+      },
+      "l1i_mpki": {
+        "1": {
+          "model": 0.6842,
+          "regressor": 0.7444,
+          "simpoint": 0.4,
+          "random": 0.2556,
+          "seqpred": 0.7895
+        },
+        "2": {
+          "model": 0.7218,
+          "regressor": 0.7744,
+          "simpoint": 0.5489,
+          "random": 0.382,
+          "seqpred": 0.812
+        },
+        "5": {
+          "model": 0.8045,
+          "regressor": 0.812,
+          "simpoint": 0.7338,
+          "random": 0.5519,
+          "seqpred": 0.8045
+        },
+        "10": {
+          "model": 0.812,
+          "regressor": 0.812,
+          "simpoint": 0.6887,
+          "random": 0.6586,
+          "seqpred": 0.8195
+        },
+        "20": {
+          "model": 0.8346,
+          "regressor": 0.812,
+          "simpoint": 0.6767,
+          "random": 0.7098,
+          "seqpred": 0.797
+        },
+        "50": {
+          "model": 0.8271,
+          "regressor": 0.797,
+          "simpoint": 0.7609,
+          "random": 0.7474,
+          "seqpred": 0.7895
+        }
+      },
+      "l2_mpki": {
+        "1": {
+          "model": 0.7669,
+          "regressor": 0.7669,
+          "simpoint": 0.5444,
+          "random": 0.5789,
+          "seqpred": 0.7444
+        },
+        "2": {
+          "model": 0.7895,
+          "regressor": 0.7594,
+          "simpoint": 0.6346,
+          "random": 0.6586,
+          "seqpred": 0.7293
+        },
+        "5": {
+          "model": 0.812,
+          "regressor": 0.7895,
+          "simpoint": 0.7444,
+          "random": 0.7338,
+          "seqpred": 0.7895
+        },
+        "10": {
+          "model": 0.7895,
+          "regressor": 0.7895,
+          "simpoint": 0.7579,
+          "random": 0.7564,
+          "seqpred": 0.797
+        },
+        "20": {
+          "model": 0.8045,
+          "regressor": 0.8045,
+          "simpoint": 0.8256,
+          "random": 0.8045,
+          "seqpred": 0.8045
+        },
+        "50": {
+          "model": 0.8421,
+          "regressor": 0.8647,
+          "simpoint": 0.8647,
+          "random": 0.8617,
+          "seqpred": 0.8195
+        }
+      },
+      "rob_stall": {
+        "1": {
+          "model": 0.7068,
+          "regressor": 0.6617,
+          "simpoint": 0.6,
+          "random": 0.6361,
+          "seqpred": 0.6541
+        },
+        "2": {
+          "model": 0.6842,
+          "regressor": 0.6692,
+          "simpoint": 0.7729,
+          "random": 0.6722,
+          "seqpred": 0.6767
+        },
+        "5": {
+          "model": 0.7143,
+          "regressor": 0.6767,
+          "simpoint": 0.7489,
+          "random": 0.7519,
+          "seqpred": 0.6917
+        },
+        "10": {
+          "model": 0.7068,
+          "regressor": 0.7068,
+          "simpoint": 0.7805,
+          "random": 0.7985,
+          "seqpred": 0.7293
+        },
+        "20": {
+          "model": 0.7143,
+          "regressor": 0.7293,
+          "simpoint": 0.8677,
+          "random": 0.794,
+          "seqpred": 0.7669
+        },
+        "50": {
+          "model": 0.7143,
+          "regressor": 0.7368,
+          "simpoint": 0.8211,
+          "random": 0.8376,
+          "seqpred": 0.7744
+        }
+      },
+      "lq_stall": {
+        "1": {
+          "model": 0.7143,
+          "regressor": 0.7068,
+          "simpoint": 0.4842,
+          "random": 0.215,
+          "seqpred": 0.6316
+        },
+        "2": {
+          "model": 0.7218,
+          "regressor": 0.6767,
+          "simpoint": 0.6226,
+          "random": 0.3353,
+          "seqpred": 0.6541
+        },
+        "5": {
+          "model": 0.7293,
+          "regressor": 0.6917,
+          "simpoint": 0.6692,
+          "random": 0.5429,
+          "seqpred": 0.6767
+        },
+        "10": {
+          "model": 0.7669,
+          "regressor": 0.7143,
+          "simpoint": 0.6902,
+          "random": 0.6241,
+          "seqpred": 0.7068
+        },
+        "20": {
+          "model": 0.782,
+          "regressor": 0.7218,
+          "simpoint": 0.6917,
+          "random": 0.7053,
+          "seqpred": 0.7143
+        },
+        "50": {
+          "model": 0.7744,
+          "regressor": 0.7594,
+          "simpoint": 0.8451,
+          "random": 0.812,
+          "seqpred": 0.797
+        }
+      },
+      "sq_stall": {
+        "1": {
+          "model": 0.6692,
+          "regressor": 0.6316,
+          "simpoint": 0.6406,
+          "random": 0.3579,
+          "seqpred": 0.6466
+        },
+        "2": {
+          "model": 0.6842,
+          "regressor": 0.6241,
+          "simpoint": 0.6511,
+          "random": 0.5233,
+          "seqpred": 0.6842
+        },
+        "5": {
+          "model": 0.6767,
+          "regressor": 0.6391,
+          "simpoint": 0.6376,
+          "random": 0.6271,
+          "seqpred": 0.6917
+        },
+        "10": {
+          "model": 0.6842,
+          "regressor": 0.6541,
+          "simpoint": 0.6586,
+          "random": 0.6256,
+          "seqpred": 0.6917
+        },
+        "20": {
+          "model": 0.7068,
+          "regressor": 0.6541,
+          "simpoint": 0.5744,
+          "random": 0.6737,
+          "seqpred": 0.7143
+        },
+        "50": {
+          "model": 0.7068,
+          "regressor": 0.6917,
+          "simpoint": 0.6692,
+          "random": 0.7263,
+          "seqpred": 0.7218
+        }
+      },
+      "l2_miss_rate": {
+        "1": {
+          "model": 0.6119,
+          "regressor": 0.5522,
+          "simpoint": 0.5224,
+          "random": 0.4955,
+          "seqpred": 0.5746
+        },
+        "2": {
+          "model": 0.6418,
+          "regressor": 0.5672,
+          "simpoint": 0.5985,
+          "random": 0.5433,
+          "seqpred": 0.597
+        },
+        "5": {
+          "model": 0.6567,
+          "regressor": 0.5672,
+          "simpoint": 0.6179,
+          "random": 0.6,
+          "seqpred": 0.6194
+        },
+        "10": {
+          "model": 0.6269,
+          "regressor": 0.5597,
+          "simpoint": 0.6164,
+          "random": 0.6284,
+          "seqpred": 0.6493
+        },
+        "20": {
+          "model": 0.597,
+          "regressor": 0.5299,
+          "simpoint": 0.6746,
+          "random": 0.6746,
+          "seqpred": 0.6418
+        },
+        "50": {
+          "model": 0.6866,
+          "regressor": 0.6343,
+          "simpoint": 0.7537,
+          "random": 0.6925,
+          "seqpred": 0.6642
+        }
+      },
+      "btb_miss_rate": {
+        "1": {
+          "model": 0.8433,
+          "regressor": 0.6716,
+          "simpoint": 0.5045,
+          "random": 0.3896,
+          "seqpred": 0.4104
+        },
+        "2": {
+          "model": 0.8358,
+          "regressor": 0.7463,
+          "simpoint": 0.5358,
+          "random": 0.4701,
+          "seqpred": 0.5522
+        },
+        "5": {
+          "model": 0.8881,
+          "regressor": 0.8358,
+          "simpoint": 0.6075,
+          "random": 0.603,
+          "seqpred": 0.5672
+        },
+        "10": {
+          "model": 0.8955,
+          "regressor": 0.806,
+          "simpoint": 0.6612,
+          "random": 0.6388,
+          "seqpred": 0.5746
+        },
+        "20": {
+          "model": 0.8657,
+          "regressor": 0.7836,
+          "simpoint": 0.6806,
+          "random": 0.6716,
+          "seqpred": 0.6567
+        },
+        "50": {
+          "model": 0.8806,
+          "regressor": 0.7761,
+          "simpoint": 0.8104,
+          "random": 0.803,
+          "seqpred": 0.7537
+        }
+      }
+    },
+    "medium": {
+      "cpi": {
+        "1": {
+          "model": 0.9173,
+          "regressor": 0.8045,
+          "simpoint": 0.618,
+          "random": 0.6782,
+          "seqpred": 0.8421
+        },
+        "2": {
+          "model": 0.9173,
+          "regressor": 0.8045,
+          "simpoint": 0.6932,
+          "random": 0.6962,
+          "seqpred": 0.8346
+        },
+        "5": {
+          "model": 0.8947,
+          "regressor": 0.812,
+          "simpoint": 0.812,
+          "random": 0.7895,
+          "seqpred": 0.8421
+        },
+        "10": {
+          "model": 0.8797,
+          "regressor": 0.8045,
+          "simpoint": 0.8331,
+          "random": 0.818,
+          "seqpred": 0.8421
+        },
+        "20": {
+          "model": 0.8722,
+          "regressor": 0.8045,
+          "simpoint": 0.9008,
+          "random": 0.8737,
+          "seqpred": 0.8496
+        },
+        "50": {
+          "model": 0.8496,
+          "regressor": 0.8346,
+          "simpoint": 0.8827,
+          "random": 0.9083,
+          "seqpred": 0.8271
+        }
+      },
+      "branch_mpki": {
+        "1": {
+          "model": 0.9774,
+          "regressor": 0.9699,
+          "simpoint": 0.9444,
+          "random": 0.5278,
+          "seqpred": 0.9248
+        },
+        "2": {
+          "model": 0.985,
+          "regressor": 0.9699,
+          "simpoint": 0.8962,
+          "random": 0.7323,
+          "seqpred": 0.9248
+        },
+        "5": {
+          "model": 0.985,
+          "regressor": 0.9549,
+          "simpoint": 0.9459,
+          "random": 0.8842,
+          "seqpred": 1.0
+        },
+        "10": {
+          "model": 0.985,
+          "regressor": 0.9549,
+          "simpoint": 0.9639,
+          "random": 0.9353,
+          "seqpred": 1.0
+        },
+        "20": {
+          "model": 0.985,
+          "regressor": 0.9549,
+          "simpoint": 0.9729,
+          "random": 0.9594,
+          "seqpred": 1.0
+        },
+        "50": {
+          "model": 0.9474,
+          "regressor": 0.9474,
+          "simpoint": 0.985,
+          "random": 0.982,
+          "seqpred": 1.0
+        }
+      },
+      "l1_mpki": {
+        "1": {
+          "model": 0.9774,
+          "regressor": 0.9323,
+          "simpoint": 0.8316,
+          "random": 0.6346,
+          "seqpred": 0.8872
+        },
+        "2": {
+          "model": 0.9699,
+          "regressor": 0.9398,
+          "simpoint": 0.9068,
+          "random": 0.7759,
+          "seqpred": 0.9474
+        },
+        "5": {
+          "model": 0.9624,
+          "regressor": 0.9398,
+          "simpoint": 0.9053,
+          "random": 0.818,
+          "seqpred": 0.9624
+        },
+        "10": {
+          "model": 0.9549,
+          "regressor": 0.9323,
+          "simpoint": 0.8902,
+          "random": 0.8767,
+          "seqpred": 0.9774
+        },
+        "20": {
+          "model": 0.9549,
+          "regressor": 0.9323,
+          "simpoint": 0.9383,
+          "random": 0.9068,
+          "seqpred": 0.9699
+        },
+        "50": {
+          "model": 0.9699,
+          "regressor": 0.9699,
+          "simpoint": 0.9729,
+          "random": 0.9534,
+          "seqpred": 0.9774
+        }
+      },
+      "l1i_mpki": {
+        "1": {
+          "model": 0.9098,
+          "regressor": 0.9624,
+          "simpoint": 0.391,
+          "random": 0.2752,
+          "seqpred": 0.9474
+        },
+        "2": {
+          "model": 0.9699,
+          "regressor": 0.9699,
+          "simpoint": 0.5233,
+          "random": 0.4316,
+          "seqpred": 0.9474
+        },
+        "5": {
+          "model": 0.9699,
+          "regressor": 0.9699,
+          "simpoint": 0.8692,
+          "random": 0.6556,
+          "seqpred": 0.9323
+        },
+        "10": {
+          "model": 0.9699,
+          "regressor": 0.9699,
+          "simpoint": 0.8857,
+          "random": 0.806,
+          "seqpred": 0.9323
+        },
+        "20": {
+          "model": 0.9699,
+          "regressor": 0.9699,
+          "simpoint": 0.8466,
+          "random": 0.8586,
+          "seqpred": 0.9398
+        },
+        "50": {
+          "model": 0.9699,
+          "regressor": 0.9699,
+          "simpoint": 0.9459,
+          "random": 0.9263,
+          "seqpred": 0.9549
+        }
+      },
+      "l2_mpki": {
+        "1": {
+          "model": 0.9774,
+          "regressor": 1.0,
+          "simpoint": 0.5759,
+          "random": 0.6556,
+          "seqpred": 0.9474
+        },
+        "2": {
+          "model": 0.9774,
+          "regressor": 1.0,
+          "simpoint": 0.7609,
+          "random": 0.7579,
+          "seqpred": 0.9549
+        },
+        "5": {
+          "model": 0.985,
+          "regressor": 0.9925,
+          "simpoint": 0.8526,
+          "random": 0.8556,
+          "seqpred": 0.9774
+        },
+        "10": {
+          "model": 0.985,
+          "regressor": 0.9925,
+          "simpoint": 0.9383,
+          "random": 0.8872,
+          "seqpred": 0.9774
+        },
+        "20": {
+          "model": 0.985,
+          "regressor": 0.9925,
+          "simpoint": 0.9865,
+          "random": 0.9308,
+          "seqpred": 0.9474
+        },
+        "50": {
+          "model": 0.9925,
+          "regressor": 1.0,
+          "simpoint": 0.9955,
+          "random": 0.988,
+          "seqpred": 0.9774
+        }
+      },
+      "rob_stall": {
+        "1": {
+          "model": 0.8496,
+          "regressor": 0.8647,
+          "simpoint": 0.6902,
+          "random": 0.7429,
+          "seqpred": 0.8195
+        },
+        "2": {
+          "model": 0.8421,
+          "regressor": 0.8947,
+          "simpoint": 0.8466,
+          "random": 0.812,
+          "seqpred": 0.8421
+        },
+        "5": {
+          "model": 0.8797,
+          "regressor": 0.8722,
+          "simpoint": 0.8481,
+          "random": 0.8496,
+          "seqpred": 0.8571
+        },
+        "10": {
+          "model": 0.8797,
+          "regressor": 0.8872,
+          "simpoint": 0.8962,
+          "random": 0.8992,
+          "seqpred": 0.8647
+        },
+        "20": {
+          "model": 0.8947,
+          "regressor": 0.9098,
+          "simpoint": 0.9444,
+          "random": 0.9053,
+          "seqpred": 0.8872
+        },
+        "50": {
+          "model": 0.8947,
+          "regressor": 0.9248,
+          "simpoint": 0.9789,
+          "random": 0.9549,
+          "seqpred": 0.9023
+        }
+      },
+      "lq_stall": {
+        "1": {
+          "model": 0.9549,
+          "regressor": 0.9098,
+          "simpoint": 0.403,
+          "random": 0.5023,
+          "seqpred": 0.8722
+        },
+        "2": {
+          "model": 0.9624,
+          "regressor": 0.9398,
+          "simpoint": 0.8286,
+          "random": 0.6301,
+          "seqpred": 0.8947
+        },
+        "5": {
+          "model": 0.985,
+          "regressor": 0.9398,
+          "simpoint": 0.9068,
+          "random": 0.809,
+          "seqpred": 0.9023
+        },
+        "10": {
+          "model": 0.985,
+          "regressor": 0.9549,
+          "simpoint": 0.9083,
+          "random": 0.9128,
+          "seqpred": 0.8872
+        },
+        "20": {
+          "model": 0.9925,
+          "regressor": 0.9549,
+          "simpoint": 0.9789,
+          "random": 0.9368,
+          "seqpred": 0.9023
+        },
+        "50": {
+          "model": 0.985,
+          "regressor": 0.9624,
+          "simpoint": 0.9699,
+          "random": 0.9729,
+          "seqpred": 0.9323
+        }
+      },
+      "sq_stall": {
+        "1": {
+          "model": 0.9549,
+          "regressor": 0.8872,
+          "simpoint": 0.8436,
+          "random": 0.5023,
+          "seqpred": 0.8797
+        },
+        "2": {
+          "model": 0.9549,
+          "regressor": 0.8797,
+          "simpoint": 0.8195,
+          "random": 0.6436,
+          "seqpred": 0.8797
+        },
+        "5": {
+          "model": 0.9474,
+          "regressor": 0.9023,
+          "simpoint": 0.8271,
+          "random": 0.7699,
+          "seqpred": 0.9023
+        },
+        "10": {
+          "model": 0.9474,
+          "regressor": 0.9173,
+          "simpoint": 0.8466,
+          "random": 0.8286,
+          "seqpred": 0.8947
+        },
+        "20": {
+          "model": 0.9398,
+          "regressor": 0.9248,
+          "simpoint": 0.8211,
+          "random": 0.8812,
+          "seqpred": 0.9323
+        },
+        "50": {
+          "model": 0.9774,
+          "regressor": 0.9624,
+          "simpoint": 0.9263,
+          "random": 0.9353,
+          "seqpred": 0.9699
+        }
+      },
+      "l2_miss_rate": {
+        "1": {
+          "model": 0.8421,
+          "regressor": 0.5188,
+          "simpoint": 0.5128,
+          "random": 0.594,
+          "seqpred": 0.7744
+        },
+        "2": {
+          "model": 0.8872,
+          "regressor": 0.5489,
+          "simpoint": 0.7143,
+          "random": 0.6677,
+          "seqpred": 0.782
+        },
+        "5": {
+          "model": 0.8947,
+          "regressor": 0.5414,
+          "simpoint": 0.7218,
+          "random": 0.7263,
+          "seqpred": 0.7744
+        },
+        "10": {
+          "model": 0.8872,
+          "regressor": 0.5414,
+          "simpoint": 0.812,
+          "random": 0.7805,
+          "seqpred": 0.7744
+        },
+        "20": {
+          "model": 0.8421,
+          "regressor": 0.5113,
+          "simpoint": 0.8541,
+          "random": 0.8331,
+          "seqpred": 0.782
+        },
+        "50": {
+          "model": 0.8797,
+          "regressor": 0.7519,
+          "simpoint": 0.9444,
+          "random": 0.9143,
+          "seqpred": 0.8195
+        }
+      },
+      "btb_miss_rate": {
+        "1": {
+          "model": 0.9549,
+          "regressor": 0.8722,
+          "simpoint": 0.7955,
+          "random": 0.4812,
+          "seqpred": 0.7068
+        },
+        "2": {
+          "model": 0.9699,
+          "regressor": 0.9173,
+          "simpoint": 0.8526,
+          "random": 0.6346,
+          "seqpred": 0.7744
+        },
+        "5": {
+          "model": 0.985,
+          "regressor": 0.9699,
+          "simpoint": 0.9278,
+          "random": 0.8451,
+          "seqpred": 0.8571
+        },
+        "10": {
+          "model": 0.9925,
+          "regressor": 0.9699,
+          "simpoint": 0.9429,
+          "random": 0.8962,
+          "seqpred": 0.9023
+        },
+        "20": {
+          "model": 1.0,
+          "regressor": 0.9699,
+          "simpoint": 0.9805,
+          "random": 0.9474,
+          "seqpred": 0.9323
+        },
+        "50": {
+          "model": 0.9925,
+          "regressor": 0.9624,
+          "simpoint": 0.994,
+          "random": 0.9594,
+          "seqpred": 0.9699
+        }
+      }
+    },
+    "easy": {
+      "cpi": {
+        "1": {
+          "model": 0.985,
+          "regressor": 0.9098,
+          "simpoint": 0.7248,
+          "random": 0.7774,
+          "seqpred": 0.9098
+        },
+        "2": {
+          "model": 0.985,
+          "regressor": 0.9098,
+          "simpoint": 0.7955,
+          "random": 0.8135,
+          "seqpred": 0.9023
+        },
+        "5": {
+          "model": 0.9774,
+          "regressor": 0.9173,
+          "simpoint": 0.8917,
+          "random": 0.8647,
+          "seqpred": 0.9323
+        },
+        "10": {
+          "model": 0.9699,
+          "regressor": 0.9248,
+          "simpoint": 0.9158,
+          "random": 0.9308,
+          "seqpred": 0.9323
+        },
+        "20": {
+          "model": 0.9474,
+          "regressor": 0.9098,
+          "simpoint": 0.9805,
+          "random": 0.9564,
+          "seqpred": 0.9248
+        },
+        "50": {
+          "model": 0.9549,
+          "regressor": 0.9023,
+          "simpoint": 0.9774,
+          "random": 0.982,
+          "seqpred": 0.9248
+        }
+      },
+      "branch_mpki": {
+        "1": {
+          "model": 0.9474,
+          "regressor": 0.9699,
+          "simpoint": 0.9489,
+          "random": 0.6902,
+          "seqpred": 0.9549
+        },
+        "2": {
+          "model": 0.9624,
+          "regressor": 0.9699,
+          "simpoint": 0.9368,
+          "random": 0.8436,
+          "seqpred": 0.9549
+        },
+        "5": {
+          "model": 0.9624,
+          "regressor": 0.9699,
+          "simpoint": 0.9805,
+          "random": 0.9534,
+          "seqpred": 0.9699
+        },
+        "10": {
+          "model": 0.9624,
+          "regressor": 0.9699,
+          "simpoint": 0.9925,
+          "random": 0.9759,
+          "seqpred": 0.9624
+        },
+        "20": {
+          "model": 0.9624,
+          "regressor": 0.9699,
+          "simpoint": 0.994,
+          "random": 0.9774,
+          "seqpred": 0.9624
+        },
+        "50": {
+          "model": 0.9624,
+          "regressor": 0.9699,
+          "simpoint": 0.9955,
+          "random": 0.9955,
+          "seqpred": 0.9699
+        }
+      },
+      "l1_mpki": {
+        "1": {
+          "model": 0.9924,
+          "regressor": 0.9848,
+          "simpoint": 0.8409,
+          "random": 0.7515,
+          "seqpred": 0.9773
+        },
+        "2": {
+          "model": 0.9924,
+          "regressor": 0.9848,
+          "simpoint": 0.9091,
+          "random": 0.8545,
+          "seqpred": 0.9848
+        },
+        "5": {
+          "model": 1.0,
+          "regressor": 0.9848,
+          "simpoint": 0.9576,
+          "random": 0.9394,
+          "seqpred": 0.9848
+        },
+        "10": {
+          "model": 1.0,
+          "regressor": 0.9848,
+          "simpoint": 0.9379,
+          "random": 0.9636,
+          "seqpred": 0.9848
+        },
+        "20": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9848,
+          "random": 0.9818,
+          "seqpred": 1.0
+        },
+        "50": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9985,
+          "random": 1.0,
+          "seqpred": 1.0
+        }
+      },
+      "l1i_mpki": {
+        "1": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.5394,
+          "random": 0.3545,
+          "seqpred": 1.0
+        },
+        "2": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.8909,
+          "random": 0.6152,
+          "seqpred": 1.0
+        },
+        "5": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9894,
+          "random": 0.8621,
+          "seqpred": 1.0
+        },
+        "10": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9985,
+          "random": 0.9697,
+          "seqpred": 1.0
+        },
+        "20": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.997,
+          "random": 0.9924,
+          "seqpred": 1.0
+        },
+        "50": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 1.0,
+          "random": 1.0,
+          "seqpred": 1.0
+        }
+      },
+      "l2_mpki": {
+        "1": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.7409,
+          "random": 0.7273,
+          "seqpred": 0.9848
+        },
+        "2": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9,
+          "random": 0.8,
+          "seqpred": 0.9924
+        },
+        "5": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9545,
+          "random": 0.8924,
+          "seqpred": 0.9924
+        },
+        "10": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9697,
+          "random": 0.953,
+          "seqpred": 0.9924
+        },
+        "20": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 1.0,
+          "random": 0.9864,
+          "seqpred": 1.0
+        },
+        "50": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 1.0,
+          "random": 1.0,
+          "seqpred": 1.0
+        }
+      },
+      "rob_stall": {
+        "1": {
+          "model": 0.7424,
+          "regressor": 0.6818,
+          "simpoint": 0.7697,
+          "random": 0.7364,
+          "seqpred": 0.7273
+        },
+        "2": {
+          "model": 0.75,
+          "regressor": 0.6894,
+          "simpoint": 0.8712,
+          "random": 0.8303,
+          "seqpred": 0.7879
+        },
+        "5": {
+          "model": 0.75,
+          "regressor": 0.7121,
+          "simpoint": 0.8727,
+          "random": 0.8803,
+          "seqpred": 0.8182
+        },
+        "10": {
+          "model": 0.75,
+          "regressor": 0.7197,
+          "simpoint": 0.9152,
+          "random": 0.9318,
+          "seqpred": 0.8258
+        },
+        "20": {
+          "model": 0.7727,
+          "regressor": 0.7273,
+          "simpoint": 0.9652,
+          "random": 0.9652,
+          "seqpred": 0.8409
+        },
+        "50": {
+          "model": 0.7955,
+          "regressor": 0.75,
+          "simpoint": 0.9985,
+          "random": 0.9909,
+          "seqpred": 0.8485
+        }
+      },
+      "lq_stall": {
+        "1": {
+          "model": 0.9848,
+          "regressor": 0.9773,
+          "simpoint": 0.4864,
+          "random": 0.5364,
+          "seqpred": 0.9848
+        },
+        "2": {
+          "model": 0.9848,
+          "regressor": 0.9848,
+          "simpoint": 0.9227,
+          "random": 0.7182,
+          "seqpred": 0.9848
+        },
+        "5": {
+          "model": 0.9848,
+          "regressor": 0.9848,
+          "simpoint": 0.9227,
+          "random": 0.8939,
+          "seqpred": 0.9848
+        },
+        "10": {
+          "model": 0.9848,
+          "regressor": 0.9848,
+          "simpoint": 0.9667,
+          "random": 0.9333,
+          "seqpred": 0.9848
+        },
+        "20": {
+          "model": 0.9848,
+          "regressor": 0.9848,
+          "simpoint": 0.997,
+          "random": 0.9742,
+          "seqpred": 0.9848
+        },
+        "50": {
+          "model": 0.9848,
+          "regressor": 0.9848,
+          "simpoint": 0.9985,
+          "random": 0.9939,
+          "seqpred": 1.0
+        }
+      },
+      "sq_stall": {
+        "1": {
+          "model": 0.9924,
+          "regressor": 0.9621,
+          "simpoint": 0.9106,
+          "random": 0.6379,
+          "seqpred": 0.9848
+        },
+        "2": {
+          "model": 0.9924,
+          "regressor": 0.9621,
+          "simpoint": 0.9182,
+          "random": 0.7894,
+          "seqpred": 0.9848
+        },
+        "5": {
+          "model": 0.9924,
+          "regressor": 0.9773,
+          "simpoint": 0.9348,
+          "random": 0.903,
+          "seqpred": 0.9848
+        },
+        "10": {
+          "model": 0.9924,
+          "regressor": 0.9848,
+          "simpoint": 0.9515,
+          "random": 0.9303,
+          "seqpred": 0.9773
+        },
+        "20": {
+          "model": 1.0,
+          "regressor": 0.9848,
+          "simpoint": 0.9197,
+          "random": 0.9652,
+          "seqpred": 0.9848
+        },
+        "50": {
+          "model": 1.0,
+          "regressor": 1.0,
+          "simpoint": 0.9773,
+          "random": 0.9833,
+          "seqpred": 1.0
+        }
+      },
+      "l2_miss_rate": {
+        "1": {
+          "model": 0.8872,
+          "regressor": 0.7444,
+          "simpoint": 0.6932,
+          "random": 0.7594,
+          "seqpred": 0.9173
+        },
+        "2": {
+          "model": 0.9173,
+          "regressor": 0.7444,
+          "simpoint": 0.8707,
+          "random": 0.806,
+          "seqpred": 0.9323
+        },
+        "5": {
+          "model": 0.9023,
+          "regressor": 0.7293,
+          "simpoint": 0.8872,
+          "random": 0.8662,
+          "seqpred": 0.9323
+        },
+        "10": {
+          "model": 0.9023,
+          "regressor": 0.7218,
+          "simpoint": 0.9489,
+          "random": 0.9383,
+          "seqpred": 0.9323
+        },
+        "20": {
+          "model": 0.8947,
+          "regressor": 0.7218,
+          "simpoint": 0.9534,
+          "random": 0.9654,
+          "seqpred": 0.9398
+        },
+        "50": {
+          "model": 1.0,
+          "regressor": 0.9323,
+          "simpoint": 0.997,
+          "random": 0.991,
+          "seqpred": 0.9549
+        }
+      },
+      "btb_miss_rate": {
+        "1": {
+          "model": 0.9474,
+          "regressor": 0.8947,
+          "simpoint": 0.9429,
+          "random": 0.5263,
+          "seqpred": 0.8496
+        },
+        "2": {
+          "model": 0.9474,
+          "regressor": 0.8947,
+          "simpoint": 0.8932,
+          "random": 0.7549,
+          "seqpred": 0.8496
+        },
+        "5": {
+          "model": 0.9474,
+          "regressor": 0.9398,
+          "simpoint": 0.9368,
+          "random": 0.8797,
+          "seqpred": 0.8872
+        },
+        "10": {
+          "model": 0.9774,
+          "regressor": 0.9549,
+          "simpoint": 0.9654,
+          "random": 0.9669,
+          "seqpred": 0.8872
+        },
+        "20": {
+          "model": 0.9925,
+          "regressor": 0.9549,
+          "simpoint": 0.9985,
+          "random": 0.9759,
+          "seqpred": 0.9549
+        },
+        "50": {
+          "model": 0.9925,
+          "regressor": 0.9925,
+          "simpoint": 0.997,
+          "random": 0.994,
+          "seqpred": 0.9774
+        }
+      }
+    },
+    "n_pairs": 400,
+    "tail_frac": 0.05,
+    "terciles": {
+      "cpi": [
+        0.44590231985785067,
+        1.0650867530443136
+      ],
+      "branch_mpki": [
+        0.6539255755284689,
+        1.1493785718343403
+      ],
+      "l1_mpki": [
+        0.42979138481964185,
+        1.0175034733389148
+      ],
+      "l1i_mpki": [
+        0.14133165823295712,
+        2.889733680642691
+      ],
+      "l2_mpki": [
+        0.7250233920128554,
+        1.4410764234140516
+      ],
+      "rob_stall": [
+        0.5561473776630107,
+        2.388729833639585
+      ],
+      "lq_stall": [
+        0.6146072121461232,
+        2.3185587655752897
+      ],
+      "sq_stall": [
+        0.6718448356494008,
+        1.4383791659102343
+      ],
+      "l2_miss_rate": [
+        0.8206888245256154,
+        1.4903270566223452
+      ],
+      "btb_miss_rate": [
+        0.15299694316509443,
+        0.5915968043842171
+      ]
+    },
+    "n_pairs_by_task": {
+      "cpi": 400,
+      "branch_mpki": 400,
+      "l1_mpki": 398,
+      "l1i_mpki": 398,
+      "l2_mpki": 398,
+      "rob_stall": 398,
+      "lq_stall": 398,
+      "sq_stall": 398,
+      "l2_miss_rate": 400,
+      "btb_miss_rate": 400
+    }
+  },
+  "multi_hw": {
+    "cpi": {
+      "1": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.3846,
+        "top1_simpoint": 0.5846,
+        "top1_random": 0.5231,
+        "pairwise_acc_model": 0.43,
+        "pairwise_acc_regressor": 0.6278,
+        "pairwise_acc_simpoint": 0.5372,
+        "pairwise_acc_random": 0.5455,
+        "topm_acc_model": 0.5641,
+        "topm_acc_regressor": 0.6923,
+        "topm_acc_simpoint": 0.6,
+        "topm_acc_random": 0.6564,
+        "regret_model": 0.3969,
+        "regret_regressor": 0.2355,
+        "regret_simpoint": 0.2098,
+        "regret_random": 0.1983,
+        "top1_seqpred": 0.3077,
+        "pairwise_acc_seqpred": 0.5692,
+        "topm_acc_seqpred": 0.5897,
+        "regret_seqpred": 0.325
+      },
+      "2": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.3846,
+        "top1_simpoint": 0.5538,
+        "top1_random": 0.6,
+        "pairwise_acc_model": 0.6681,
+        "pairwise_acc_regressor": 0.7524,
+        "pairwise_acc_simpoint": 0.651,
+        "pairwise_acc_random": 0.6526,
+        "topm_acc_model": 0.6923,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.7179,
+        "topm_acc_random": 0.6872,
+        "regret_model": 0.2045,
+        "regret_regressor": 0.1763,
+        "regret_simpoint": 0.171,
+        "regret_random": 0.1625,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.6938,
+        "topm_acc_seqpred": 0.6667,
+        "regret_seqpred": 0.1462
+      },
+      "5": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.6,
+        "top1_random": 0.6615,
+        "pairwise_acc_model": 0.789,
+        "pairwise_acc_regressor": 0.7707,
+        "pairwise_acc_simpoint": 0.7556,
+        "pairwise_acc_random": 0.777,
+        "topm_acc_model": 0.8205,
+        "topm_acc_regressor": 0.7949,
+        "topm_acc_simpoint": 0.7846,
+        "topm_acc_random": 0.8051,
+        "regret_model": 0.1643,
+        "regret_regressor": 0.1643,
+        "regret_simpoint": 0.1367,
+        "regret_random": 0.1064,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.8013,
+        "topm_acc_seqpred": 0.7949,
+        "regret_seqpred": 0.1942
+      },
+      "10": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.4769,
+        "top1_random": 0.7077,
+        "pairwise_acc_model": 0.778,
+        "pairwise_acc_regressor": 0.778,
+        "pairwise_acc_simpoint": 0.8428,
+        "pairwise_acc_random": 0.8275,
+        "topm_acc_model": 0.7949,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.8667,
+        "topm_acc_random": 0.8564,
+        "regret_model": 0.1987,
+        "regret_regressor": 0.1987,
+        "regret_simpoint": 0.1798,
+        "regret_random": 0.1147,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.8269,
+        "topm_acc_seqpred": 0.7949,
+        "regret_seqpred": 0.1665
+      },
+      "20": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.4308,
+        "top1_random": 0.6615,
+        "pairwise_acc_model": 0.7934,
+        "pairwise_acc_regressor": 0.8086,
+        "pairwise_acc_simpoint": 0.8364,
+        "pairwise_acc_random": 0.8562,
+        "topm_acc_model": 0.8205,
+        "topm_acc_regressor": 0.7949,
+        "topm_acc_simpoint": 0.8359,
+        "topm_acc_random": 0.8359,
+        "regret_model": 0.1987,
+        "regret_regressor": 0.1987,
+        "regret_simpoint": 0.2278,
+        "regret_random": 0.1502,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.8159,
+        "topm_acc_seqpred": 0.7949,
+        "regret_seqpred": 0.1665
+      },
+      "50": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.6462,
+        "top1_random": 0.8,
+        "pairwise_acc_model": 0.8086,
+        "pairwise_acc_regressor": 0.8084,
+        "pairwise_acc_simpoint": 0.8896,
+        "pairwise_acc_random": 0.9047,
+        "topm_acc_model": 0.7949,
+        "topm_acc_regressor": 0.7949,
+        "topm_acc_simpoint": 0.8718,
+        "topm_acc_random": 0.8974,
+        "regret_model": 0.1687,
+        "regret_regressor": 0.1687,
+        "regret_simpoint": 0.1419,
+        "regret_random": 0.0605,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.8194,
+        "topm_acc_seqpred": 0.7949,
+        "regret_seqpred": 0.1664
+      }
+    },
+    "branch_mpki": {
+      "1": {
+        "top1_model": 0.5385,
+        "top1_regressor": 0.5385,
+        "top1_simpoint": 0.4769,
+        "top1_random": 0.3846,
+        "pairwise_acc_model": 0.5291,
+        "pairwise_acc_regressor": 0.4694,
+        "pairwise_acc_simpoint": 0.5327,
+        "pairwise_acc_random": 0.4084,
+        "topm_acc_model": 0.6154,
+        "topm_acc_regressor": 0.5897,
+        "topm_acc_simpoint": 0.6308,
+        "topm_acc_random": 0.5333,
+        "regret_model": 0.2754,
+        "regret_regressor": 0.3128,
+        "regret_simpoint": 0.2884,
+        "regret_random": 0.3485,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.5432,
+        "topm_acc_seqpred": 0.6154,
+        "regret_seqpred": 0.1796
+      },
+      "2": {
+        "top1_model": 0.6923,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.6462,
+        "top1_random": 0.5385,
+        "pairwise_acc_model": 0.6811,
+        "pairwise_acc_regressor": 0.6159,
+        "pairwise_acc_simpoint": 0.6026,
+        "pairwise_acc_random": 0.6092,
+        "topm_acc_model": 0.7436,
+        "topm_acc_regressor": 0.641,
+        "topm_acc_simpoint": 0.6769,
+        "topm_acc_random": 0.6769,
+        "regret_model": 0.1622,
+        "regret_regressor": 0.2237,
+        "regret_simpoint": 0.1824,
+        "regret_random": 0.1984,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.6542,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.1704
+      },
+      "5": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.6615,
+        "top1_random": 0.5846,
+        "pairwise_acc_model": 0.6881,
+        "pairwise_acc_regressor": 0.7165,
+        "pairwise_acc_simpoint": 0.7391,
+        "pairwise_acc_random": 0.689,
+        "topm_acc_model": 0.6923,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.7538,
+        "topm_acc_random": 0.7282,
+        "regret_model": 0.1507,
+        "regret_regressor": 0.1334,
+        "regret_simpoint": 0.1091,
+        "regret_random": 0.1773,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.7136,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.1653
+      },
+      "10": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.8769,
+        "top1_random": 0.8154,
+        "pairwise_acc_model": 0.765,
+        "pairwise_acc_regressor": 0.8016,
+        "pairwise_acc_simpoint": 0.8371,
+        "pairwise_acc_random": 0.8371,
+        "topm_acc_model": 0.7179,
+        "topm_acc_regressor": 0.7436,
+        "topm_acc_simpoint": 0.8462,
+        "topm_acc_random": 0.8308,
+        "regret_model": 0.0776,
+        "regret_regressor": 0.0602,
+        "regret_simpoint": 0.0153,
+        "regret_random": 0.0836,
+        "top1_seqpred": 0.8462,
+        "pairwise_acc_seqpred": 0.7282,
+        "topm_acc_seqpred": 0.6667,
+        "regret_seqpred": 0.0602
+      },
+      "20": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.8462,
+        "top1_random": 0.8308,
+        "pairwise_acc_model": 0.7535,
+        "pairwise_acc_regressor": 0.8377,
+        "pairwise_acc_simpoint": 0.8711,
+        "pairwise_acc_random": 0.8491,
+        "topm_acc_model": 0.7179,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.8667,
+        "topm_acc_random": 0.8051,
+        "regret_model": 0.0602,
+        "regret_regressor": 0.0602,
+        "regret_simpoint": 0.0185,
+        "regret_random": 0.0358,
+        "top1_seqpred": 0.8462,
+        "pairwise_acc_seqpred": 0.7615,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.0602
+      },
+      "50": {
+        "top1_model": 0.9231,
+        "top1_regressor": 0.7692,
+        "top1_simpoint": 0.8769,
+        "top1_random": 0.8308,
+        "pairwise_acc_model": 0.8084,
+        "pairwise_acc_regressor": 0.8414,
+        "pairwise_acc_simpoint": 0.8821,
+        "pairwise_acc_random": 0.8984,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.8359,
+        "topm_acc_random": 0.8615,
+        "regret_model": 0.0564,
+        "regret_regressor": 0.0265,
+        "regret_simpoint": 0.0217,
+        "regret_random": 0.023,
+        "top1_seqpred": 0.9231,
+        "pairwise_acc_seqpred": 0.8238,
+        "topm_acc_seqpred": 0.7692,
+        "regret_seqpred": 0.0038
+      }
+    },
+    "l1_mpki": {
+      "1": {
+        "top1_model": 0.6923,
+        "top1_regressor": 0.5385,
+        "top1_simpoint": 0.5385,
+        "top1_random": 0.3538,
+        "pairwise_acc_model": 0.5802,
+        "pairwise_acc_regressor": 0.5802,
+        "pairwise_acc_simpoint": 0.5133,
+        "pairwise_acc_random": 0.4553,
+        "topm_acc_model": 0.6154,
+        "topm_acc_regressor": 0.6154,
+        "topm_acc_simpoint": 0.5949,
+        "topm_acc_random": 0.5795,
+        "regret_model": 0.1381,
+        "regret_regressor": 0.1926,
+        "regret_simpoint": 0.2271,
+        "regret_random": 0.3431,
+        "top1_seqpred": 0.0769,
+        "pairwise_acc_seqpred": 0.244,
+        "topm_acc_seqpred": 0.4103,
+        "regret_seqpred": 0.6603
+      },
+      "2": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.4769,
+        "top1_random": 0.4462,
+        "pairwise_acc_model": 0.7304,
+        "pairwise_acc_regressor": 0.7275,
+        "pairwise_acc_simpoint": 0.5557,
+        "pairwise_acc_random": 0.6619,
+        "topm_acc_model": 0.7436,
+        "topm_acc_regressor": 0.7179,
+        "topm_acc_simpoint": 0.6308,
+        "topm_acc_random": 0.7128,
+        "regret_model": 0.0395,
+        "regret_regressor": 0.1189,
+        "regret_simpoint": 0.259,
+        "regret_random": 0.2641,
+        "top1_seqpred": 0.2308,
+        "pairwise_acc_seqpred": 0.5223,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.4254
+      },
+      "5": {
+        "top1_model": 0.9231,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.6154,
+        "top1_random": 0.5385,
+        "pairwise_acc_model": 0.8623,
+        "pairwise_acc_regressor": 0.8853,
+        "pairwise_acc_simpoint": 0.7704,
+        "pairwise_acc_random": 0.7903,
+        "topm_acc_model": 0.9231,
+        "topm_acc_regressor": 0.9487,
+        "topm_acc_simpoint": 0.8359,
+        "topm_acc_random": 0.8051,
+        "regret_model": 0.0017,
+        "regret_regressor": 0.0905,
+        "regret_simpoint": 0.1489,
+        "regret_random": 0.1593,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.8009,
+        "topm_acc_seqpred": 0.8718,
+        "regret_seqpred": 0.0877
+      },
+      "10": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.6615,
+        "top1_random": 0.6615,
+        "pairwise_acc_model": 0.8813,
+        "pairwise_acc_regressor": 0.911,
+        "pairwise_acc_simpoint": 0.8662,
+        "pairwise_acc_random": 0.8622,
+        "topm_acc_model": 0.9231,
+        "topm_acc_regressor": 0.9231,
+        "topm_acc_simpoint": 0.8769,
+        "topm_acc_random": 0.8615,
+        "regret_model": 0.0461,
+        "regret_regressor": 0.0469,
+        "regret_simpoint": 0.1086,
+        "regret_random": 0.1198,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.8595,
+        "topm_acc_seqpred": 0.8462,
+        "regret_seqpred": 0.0877
+      },
+      "20": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.7846,
+        "top1_random": 0.7692,
+        "pairwise_acc_model": 0.8817,
+        "pairwise_acc_regressor": 0.9,
+        "pairwise_acc_simpoint": 0.9193,
+        "pairwise_acc_random": 0.8862,
+        "topm_acc_model": 0.8718,
+        "topm_acc_regressor": 0.9231,
+        "topm_acc_simpoint": 0.9077,
+        "topm_acc_random": 0.8718,
+        "regret_model": 0.0461,
+        "regret_regressor": 0.0469,
+        "regret_simpoint": 0.0644,
+        "regret_random": 0.0818,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.8632,
+        "topm_acc_seqpred": 0.8718,
+        "regret_seqpred": 0.0885
+      },
+      "50": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.7692,
+        "top1_simpoint": 0.8769,
+        "top1_random": 0.8154,
+        "pairwise_acc_model": 0.9073,
+        "pairwise_acc_regressor": 0.919,
+        "pairwise_acc_simpoint": 0.9368,
+        "pairwise_acc_random": 0.924,
+        "topm_acc_model": 0.9231,
+        "topm_acc_regressor": 0.9744,
+        "topm_acc_simpoint": 0.9231,
+        "topm_acc_random": 0.9333,
+        "regret_model": 0.0121,
+        "regret_regressor": 0.013,
+        "regret_simpoint": 0.0207,
+        "regret_random": 0.0386,
+        "top1_seqpred": 0.8462,
+        "pairwise_acc_seqpred": 0.8888,
+        "topm_acc_seqpred": 0.8974,
+        "regret_seqpred": 0.0114
+      }
+    },
+    "l1i_mpki": {
+      "1": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.2154,
+        "top1_random": 0.2308,
+        "pairwise_acc_model": 0.5385,
+        "pairwise_acc_regressor": 0.5714,
+        "pairwise_acc_simpoint": 0.2029,
+        "pairwise_acc_random": 0.2799,
+        "topm_acc_model": 0.6923,
+        "topm_acc_regressor": 0.7179,
+        "topm_acc_simpoint": 0.4872,
+        "topm_acc_random": 0.5692,
+        "regret_model": 0.2879,
+        "regret_regressor": 0.2596,
+        "regret_simpoint": 0.6797,
+        "regret_random": 0.6054,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.5201,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.2596
+      },
+      "2": {
+        "top1_model": 0.6923,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.4615,
+        "top1_random": 0.4462,
+        "pairwise_acc_model": 0.6337,
+        "pairwise_acc_regressor": 0.6154,
+        "pairwise_acc_simpoint": 0.4476,
+        "pairwise_acc_random": 0.4111,
+        "topm_acc_model": 0.7436,
+        "topm_acc_regressor": 0.7179,
+        "topm_acc_simpoint": 0.6,
+        "topm_acc_random": 0.6256,
+        "regret_model": 0.1516,
+        "regret_regressor": 0.1824,
+        "regret_simpoint": 0.3473,
+        "regret_random": 0.4122,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.5201,
+        "topm_acc_seqpred": 0.6667,
+        "regret_seqpred": 0.2307
+      },
+      "5": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.4769,
+        "top1_random": 0.5077,
+        "pairwise_acc_model": 0.7546,
+        "pairwise_acc_regressor": 0.63,
+        "pairwise_acc_simpoint": 0.5621,
+        "pairwise_acc_random": 0.5937,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.7179,
+        "topm_acc_simpoint": 0.641,
+        "topm_acc_random": 0.6769,
+        "regret_model": 0.0756,
+        "regret_regressor": 0.1836,
+        "regret_simpoint": 0.2564,
+        "regret_random": 0.2358,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.5568,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.2294
+      },
+      "10": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.7077,
+        "top1_random": 0.6769,
+        "pairwise_acc_model": 0.7509,
+        "pairwise_acc_regressor": 0.7106,
+        "pairwise_acc_simpoint": 0.7301,
+        "pairwise_acc_random": 0.7217,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.7538,
+        "topm_acc_random": 0.7487,
+        "regret_model": 0.0756,
+        "regret_regressor": 0.1223,
+        "regret_simpoint": 0.1505,
+        "regret_random": 0.1755,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6264,
+        "topm_acc_seqpred": 0.7436,
+        "regret_seqpred": 0.1348
+      },
+      "20": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.7692,
+        "top1_random": 0.7231,
+        "pairwise_acc_model": 0.7619,
+        "pairwise_acc_regressor": 0.7949,
+        "pairwise_acc_simpoint": 0.7795,
+        "pairwise_acc_random": 0.766,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.8974,
+        "topm_acc_simpoint": 0.7436,
+        "topm_acc_random": 0.7385,
+        "regret_model": 0.0746,
+        "regret_regressor": 0.0733,
+        "regret_simpoint": 0.111,
+        "regret_random": 0.1,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.7033,
+        "topm_acc_seqpred": 0.8205,
+        "regret_seqpred": 0.0746
+      },
+      "50": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.8,
+        "top1_random": 0.7385,
+        "pairwise_acc_model": 0.7912,
+        "pairwise_acc_regressor": 0.7839,
+        "pairwise_acc_simpoint": 0.8822,
+        "pairwise_acc_random": 0.8475,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.8615,
+        "topm_acc_random": 0.8,
+        "regret_model": 0.0733,
+        "regret_regressor": 0.0733,
+        "regret_simpoint": 0.0223,
+        "regret_random": 0.0693,
+        "top1_seqpred": 0.8462,
+        "pairwise_acc_seqpred": 0.7766,
+        "topm_acc_seqpred": 0.8718,
+        "regret_seqpred": 0.0733
+      }
+    },
+    "l2_mpki": {
+      "1": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.5385,
+        "top1_simpoint": 0.4308,
+        "top1_random": 0.3385,
+        "pairwise_acc_model": 0.4516,
+        "pairwise_acc_regressor": 0.4359,
+        "pairwise_acc_simpoint": 0.3922,
+        "pairwise_acc_random": 0.3416,
+        "topm_acc_model": 0.5897,
+        "topm_acc_regressor": 0.5897,
+        "topm_acc_simpoint": 0.5077,
+        "topm_acc_random": 0.5179,
+        "regret_model": 0.2295,
+        "regret_regressor": 0.2789,
+        "regret_simpoint": 0.3379,
+        "regret_random": 0.3517,
+        "top1_seqpred": 0.3846,
+        "pairwise_acc_seqpred": 0.4176,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.325
+      },
+      "2": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.5692,
+        "top1_random": 0.4154,
+        "pairwise_acc_model": 0.4846,
+        "pairwise_acc_regressor": 0.5176,
+        "pairwise_acc_simpoint": 0.4792,
+        "pairwise_acc_random": 0.5193,
+        "topm_acc_model": 0.5897,
+        "topm_acc_regressor": 0.6154,
+        "topm_acc_simpoint": 0.4821,
+        "topm_acc_random": 0.6051,
+        "regret_model": 0.2076,
+        "regret_regressor": 0.1943,
+        "regret_simpoint": 0.2583,
+        "regret_random": 0.3203,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.448,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.1991
+      },
+      "5": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.7692,
+        "top1_simpoint": 0.6308,
+        "top1_random": 0.5538,
+        "pairwise_acc_model": 0.6128,
+        "pairwise_acc_regressor": 0.6897,
+        "pairwise_acc_simpoint": 0.6699,
+        "pairwise_acc_random": 0.7064,
+        "topm_acc_model": 0.6923,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.5897,
+        "topm_acc_random": 0.6718,
+        "regret_model": 0.0783,
+        "regret_regressor": 0.0275,
+        "regret_simpoint": 0.1463,
+        "regret_random": 0.2509,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.5835,
+        "topm_acc_seqpred": 0.6154,
+        "regret_seqpred": 0.1128
+      },
+      "10": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.6308,
+        "top1_random": 0.6462,
+        "pairwise_acc_model": 0.6714,
+        "pairwise_acc_regressor": 0.752,
+        "pairwise_acc_simpoint": 0.7218,
+        "pairwise_acc_random": 0.7588,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.6564,
+        "topm_acc_random": 0.7077,
+        "regret_model": 0.0783,
+        "regret_regressor": 0.0083,
+        "regret_simpoint": 0.1399,
+        "regret_random": 0.0984,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6861,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.0367
+      },
+      "20": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.7077,
+        "top1_random": 0.7077,
+        "pairwise_acc_model": 0.6861,
+        "pairwise_acc_regressor": 0.7667,
+        "pairwise_acc_simpoint": 0.8172,
+        "pairwise_acc_random": 0.8206,
+        "topm_acc_model": 0.7949,
+        "topm_acc_regressor": 0.8974,
+        "topm_acc_simpoint": 0.7538,
+        "topm_acc_random": 0.7795,
+        "regret_model": 0.086,
+        "regret_regressor": 0.0083,
+        "regret_simpoint": 0.0551,
+        "regret_random": 0.0596,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6934,
+        "topm_acc_seqpred": 0.6667,
+        "regret_seqpred": 0.0367
+      },
+      "50": {
+        "top1_model": 0.6923,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.8,
+        "top1_random": 0.7692,
+        "pairwise_acc_model": 0.7484,
+        "pairwise_acc_regressor": 0.8399,
+        "pairwise_acc_simpoint": 0.9155,
+        "pairwise_acc_random": 0.8621,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.8718,
+        "topm_acc_simpoint": 0.9282,
+        "topm_acc_random": 0.841,
+        "regret_model": 0.0239,
+        "regret_regressor": 0.0158,
+        "regret_simpoint": 0.0232,
+        "regret_random": 0.0318,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.7593,
+        "topm_acc_seqpred": 0.7692,
+        "regret_seqpred": 0.0239
+      }
+    },
+    "rob_stall": {
+      "1": {
+        "top1_model": 0.1538,
+        "top1_regressor": 0.3077,
+        "top1_simpoint": 0.5231,
+        "top1_random": 0.6,
+        "pairwise_acc_model": 0.4075,
+        "pairwise_acc_regressor": 0.4396,
+        "pairwise_acc_simpoint": 0.5851,
+        "pairwise_acc_random": 0.5351,
+        "topm_acc_model": 0.5641,
+        "topm_acc_regressor": 0.5641,
+        "topm_acc_simpoint": 0.641,
+        "topm_acc_random": 0.641,
+        "regret_model": 0.6341,
+        "regret_regressor": 0.562,
+        "regret_simpoint": 0.3298,
+        "regret_random": 0.2885,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.4443,
+        "topm_acc_seqpred": 0.5641,
+        "regret_seqpred": 0.4541
+      },
+      "2": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.5385,
+        "top1_simpoint": 0.5231,
+        "top1_random": 0.6,
+        "pairwise_acc_model": 0.576,
+        "pairwise_acc_regressor": 0.5238,
+        "pairwise_acc_simpoint": 0.6965,
+        "pairwise_acc_random": 0.658,
+        "topm_acc_model": 0.6667,
+        "topm_acc_regressor": 0.6154,
+        "topm_acc_simpoint": 0.7436,
+        "topm_acc_random": 0.7077,
+        "regret_model": 0.3807,
+        "regret_regressor": 0.4194,
+        "regret_simpoint": 0.3451,
+        "regret_random": 0.2828,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.5176,
+        "topm_acc_seqpred": 0.5385,
+        "regret_seqpred": 0.3059
+      },
+      "5": {
+        "top1_model": 0.6923,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.6462,
+        "top1_random": 0.5538,
+        "pairwise_acc_model": 0.6346,
+        "pairwise_acc_regressor": 0.6383,
+        "pairwise_acc_simpoint": 0.752,
+        "pairwise_acc_random": 0.7349,
+        "topm_acc_model": 0.6154,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.7846,
+        "topm_acc_random": 0.7641,
+        "regret_model": 0.2083,
+        "regret_regressor": 0.272,
+        "regret_simpoint": 0.255,
+        "regret_random": 0.2992,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6311,
+        "topm_acc_seqpred": 0.5897,
+        "regret_seqpred": 0.2449
+      },
+      "10": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.8462,
+        "top1_random": 0.6462,
+        "pairwise_acc_model": 0.7335,
+        "pairwise_acc_regressor": 0.7092,
+        "pairwise_acc_simpoint": 0.8247,
+        "pairwise_acc_random": 0.8279,
+        "topm_acc_model": 0.7436,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.8359,
+        "topm_acc_random": 0.8103,
+        "regret_model": 0.0614,
+        "regret_regressor": 0.2762,
+        "regret_simpoint": 0.1028,
+        "regret_random": 0.2178,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6467,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.2505
+      },
+      "20": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.7692,
+        "top1_simpoint": 0.9692,
+        "top1_random": 0.8615,
+        "pairwise_acc_model": 0.7335,
+        "pairwise_acc_regressor": 0.7971,
+        "pairwise_acc_simpoint": 0.9089,
+        "pairwise_acc_random": 0.8727,
+        "topm_acc_model": 0.7436,
+        "topm_acc_regressor": 0.8974,
+        "topm_acc_simpoint": 0.8821,
+        "topm_acc_random": 0.8564,
+        "regret_model": 0.0614,
+        "regret_regressor": 0.1677,
+        "regret_simpoint": 0.0025,
+        "regret_random": 0.08,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.665,
+        "topm_acc_seqpred": 0.7179,
+        "regret_seqpred": 0.2449
+      },
+      "50": {
+        "top1_model": 0.8462,
+        "top1_regressor": 0.9231,
+        "top1_simpoint": 0.9077,
+        "top1_random": 0.9385,
+        "pairwise_acc_model": 0.7885,
+        "pairwise_acc_regressor": 0.8374,
+        "pairwise_acc_simpoint": 0.9295,
+        "pairwise_acc_random": 0.9118,
+        "topm_acc_model": 0.7949,
+        "topm_acc_regressor": 0.9231,
+        "topm_acc_simpoint": 0.9231,
+        "topm_acc_random": 0.8769,
+        "regret_model": 0.0614,
+        "regret_regressor": 0.0725,
+        "regret_simpoint": 0.0173,
+        "regret_random": 0.035,
+        "top1_seqpred": 0.9231,
+        "pairwise_acc_seqpred": 0.8079,
+        "topm_acc_seqpred": 0.8462,
+        "regret_seqpred": 0.0495
+      }
+    },
+    "lq_stall": {
+      "1": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.4,
+        "top1_random": 0.2769,
+        "pairwise_acc_model": 0.3484,
+        "pairwise_acc_regressor": 0.3804,
+        "pairwise_acc_simpoint": 0.2589,
+        "pairwise_acc_random": 0.2354,
+        "topm_acc_model": 0.5897,
+        "topm_acc_regressor": 0.641,
+        "topm_acc_simpoint": 0.5487,
+        "topm_acc_random": 0.4821,
+        "regret_model": 0.234,
+        "regret_regressor": 0.2079,
+        "regret_simpoint": 0.3898,
+        "regret_random": 0.4715,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.4516,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.1356
+      },
+      "2": {
+        "top1_model": 0.6923,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.5538,
+        "top1_random": 0.3846,
+        "pairwise_acc_model": 0.4621,
+        "pairwise_acc_regressor": 0.6236,
+        "pairwise_acc_simpoint": 0.5038,
+        "pairwise_acc_random": 0.3679,
+        "topm_acc_model": 0.6667,
+        "topm_acc_regressor": 0.7436,
+        "topm_acc_simpoint": 0.7231,
+        "topm_acc_random": 0.5692,
+        "regret_model": 0.1575,
+        "regret_regressor": 0.1983,
+        "regret_simpoint": 0.2556,
+        "regret_random": 0.4447,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.5762,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.1154
+      },
+      "5": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.6154,
+        "top1_random": 0.5846,
+        "pairwise_acc_model": 0.6577,
+        "pairwise_acc_regressor": 0.7353,
+        "pairwise_acc_simpoint": 0.5941,
+        "pairwise_acc_random": 0.5512,
+        "topm_acc_model": 0.7436,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.7333,
+        "topm_acc_random": 0.6923,
+        "regret_model": 0.0994,
+        "regret_regressor": 0.1642,
+        "regret_simpoint": 0.1835,
+        "regret_random": 0.2892,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6604,
+        "topm_acc_seqpred": 0.7436,
+        "regret_seqpred": 0.1211
+      },
+      "10": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.6462,
+        "top1_random": 0.6,
+        "pairwise_acc_model": 0.709,
+        "pairwise_acc_regressor": 0.739,
+        "pairwise_acc_simpoint": 0.7,
+        "pairwise_acc_random": 0.6864,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.7333,
+        "topm_acc_random": 0.7436,
+        "regret_model": 0.0615,
+        "regret_regressor": 0.1642,
+        "regret_simpoint": 0.1428,
+        "regret_random": 0.2081,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.6678,
+        "topm_acc_seqpred": 0.7436,
+        "regret_seqpred": 0.1456
+      },
+      "20": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.7077,
+        "top1_random": 0.7231,
+        "pairwise_acc_model": 0.7126,
+        "pairwise_acc_regressor": 0.7463,
+        "pairwise_acc_simpoint": 0.8029,
+        "pairwise_acc_random": 0.8006,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.8359,
+        "topm_acc_random": 0.8,
+        "regret_model": 0.0615,
+        "regret_regressor": 0.1018,
+        "regret_simpoint": 0.0828,
+        "regret_random": 0.1198,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.72,
+        "topm_acc_seqpred": 0.7436,
+        "regret_seqpred": 0.1456
+      },
+      "50": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.8462,
+        "top1_random": 0.8462,
+        "pairwise_acc_model": 0.7163,
+        "pairwise_acc_regressor": 0.772,
+        "pairwise_acc_simpoint": 0.9142,
+        "pairwise_acc_random": 0.8602,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.7692,
+        "topm_acc_simpoint": 0.9179,
+        "topm_acc_random": 0.8667,
+        "regret_model": 0.0615,
+        "regret_regressor": 0.1338,
+        "regret_simpoint": 0.0293,
+        "regret_random": 0.0395,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.7603,
+        "topm_acc_seqpred": 0.7692,
+        "regret_seqpred": 0.0615
+      }
+    },
+    "sq_stall": {
+      "1": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.6,
+        "top1_random": 0.5385,
+        "pairwise_acc_model": 0.4762,
+        "pairwise_acc_regressor": 0.5551,
+        "pairwise_acc_simpoint": 0.4422,
+        "pairwise_acc_random": 0.3868,
+        "topm_acc_model": 0.5385,
+        "topm_acc_regressor": 0.5385,
+        "topm_acc_simpoint": 0.5436,
+        "topm_acc_random": 0.4872,
+        "regret_model": 0.3375,
+        "regret_regressor": 0.1592,
+        "regret_simpoint": 0.1395,
+        "regret_random": 0.2702,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.4672,
+        "topm_acc_seqpred": 0.5128,
+        "regret_seqpred": 0.1886
+      },
+      "2": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.6308,
+        "top1_random": 0.4615,
+        "pairwise_acc_model": 0.563,
+        "pairwise_acc_regressor": 0.6101,
+        "pairwise_acc_simpoint": 0.4793,
+        "pairwise_acc_random": 0.4634,
+        "topm_acc_model": 0.5385,
+        "topm_acc_regressor": 0.6154,
+        "topm_acc_simpoint": 0.5436,
+        "topm_acc_random": 0.5538,
+        "regret_model": 0.306,
+        "regret_regressor": 0.164,
+        "regret_simpoint": 0.1671,
+        "regret_random": 0.2599,
+        "top1_seqpred": 0.3846,
+        "pairwise_acc_seqpred": 0.5993,
+        "topm_acc_seqpred": 0.6154,
+        "regret_seqpred": 0.2713
+      },
+      "5": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.7692,
+        "top1_simpoint": 0.6769,
+        "top1_random": 0.6462,
+        "pairwise_acc_model": 0.6694,
+        "pairwise_acc_regressor": 0.7795,
+        "pairwise_acc_simpoint": 0.6147,
+        "pairwise_acc_random": 0.676,
+        "topm_acc_model": 0.641,
+        "topm_acc_regressor": 0.7179,
+        "topm_acc_simpoint": 0.6359,
+        "topm_acc_random": 0.6769,
+        "regret_model": 0.2232,
+        "regret_regressor": 0.0731,
+        "regret_simpoint": 0.1512,
+        "regret_random": 0.1722,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.6945,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.1621
+      },
+      "10": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.8,
+        "top1_random": 0.7231,
+        "pairwise_acc_model": 0.6658,
+        "pairwise_acc_regressor": 0.7905,
+        "pairwise_acc_simpoint": 0.8005,
+        "pairwise_acc_random": 0.7734,
+        "topm_acc_model": 0.641,
+        "topm_acc_regressor": 0.6923,
+        "topm_acc_simpoint": 0.8103,
+        "topm_acc_random": 0.7897,
+        "regret_model": 0.2232,
+        "regret_regressor": 0.016,
+        "regret_simpoint": 0.0801,
+        "regret_random": 0.1303,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.68,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.1447
+      },
+      "20": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.8462,
+        "top1_simpoint": 0.8308,
+        "top1_random": 0.6769,
+        "pairwise_acc_model": 0.6802,
+        "pairwise_acc_regressor": 0.8308,
+        "pairwise_acc_simpoint": 0.8603,
+        "pairwise_acc_random": 0.8017,
+        "topm_acc_model": 0.641,
+        "topm_acc_regressor": 0.7436,
+        "topm_acc_simpoint": 0.8462,
+        "topm_acc_random": 0.7897,
+        "regret_model": 0.2232,
+        "regret_regressor": 0.016,
+        "regret_simpoint": 0.0475,
+        "regret_random": 0.0951,
+        "top1_seqpred": 0.7692,
+        "pairwise_acc_seqpred": 0.7286,
+        "topm_acc_seqpred": 0.6667,
+        "regret_seqpred": 0.0801
+      },
+      "50": {
+        "top1_model": 0.9231,
+        "top1_regressor": 0.9231,
+        "top1_simpoint": 0.8615,
+        "top1_random": 0.7846,
+        "pairwise_acc_model": 0.8535,
+        "pairwise_acc_regressor": 0.8639,
+        "pairwise_acc_simpoint": 0.8525,
+        "pairwise_acc_random": 0.8756,
+        "topm_acc_model": 0.8205,
+        "topm_acc_regressor": 0.7949,
+        "topm_acc_simpoint": 0.8,
+        "topm_acc_random": 0.8769,
+        "regret_model": 0.0611,
+        "regret_regressor": 0.0151,
+        "regret_simpoint": 0.0317,
+        "regret_random": 0.042,
+        "top1_seqpred": 0.9231,
+        "pairwise_acc_seqpred": 0.8315,
+        "topm_acc_seqpred": 0.7949,
+        "regret_seqpred": 0.0611
+      }
+    },
+    "l2_miss_rate": {
+      "1": {
+        "top1_model": 0.3077,
+        "top1_regressor": 0.2308,
+        "top1_simpoint": 0.4154,
+        "top1_random": 0.3846,
+        "pairwise_acc_model": 0.3645,
+        "pairwise_acc_regressor": 0.2234,
+        "pairwise_acc_simpoint": 0.4307,
+        "pairwise_acc_random": 0.3624,
+        "topm_acc_model": 0.4615,
+        "topm_acc_regressor": 0.4359,
+        "topm_acc_simpoint": 0.4974,
+        "topm_acc_random": 0.5231,
+        "regret_model": 0.4165,
+        "regret_regressor": 0.429,
+        "regret_simpoint": 0.3424,
+        "regret_random": 0.3376,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.4458,
+        "topm_acc_seqpred": 0.5385,
+        "regret_seqpred": 0.2519
+      },
+      "2": {
+        "top1_model": 0.3077,
+        "top1_regressor": 0.3077,
+        "top1_simpoint": 0.6769,
+        "top1_random": 0.4615,
+        "pairwise_acc_model": 0.489,
+        "pairwise_acc_regressor": 0.4242,
+        "pairwise_acc_simpoint": 0.6077,
+        "pairwise_acc_random": 0.5278,
+        "topm_acc_model": 0.5897,
+        "topm_acc_regressor": 0.5385,
+        "topm_acc_simpoint": 0.6923,
+        "topm_acc_random": 0.6308,
+        "regret_model": 0.3525,
+        "regret_regressor": 0.2946,
+        "regret_simpoint": 0.0914,
+        "regret_random": 0.2729,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.5667,
+        "topm_acc_seqpred": 0.6154,
+        "regret_seqpred": 0.2271
+      },
+      "5": {
+        "top1_model": 0.3077,
+        "top1_regressor": 0.1538,
+        "top1_simpoint": 0.6615,
+        "top1_random": 0.4769,
+        "pairwise_acc_model": 0.5489,
+        "pairwise_acc_regressor": 0.4562,
+        "pairwise_acc_simpoint": 0.7025,
+        "pairwise_acc_random": 0.659,
+        "topm_acc_model": 0.5897,
+        "topm_acc_regressor": 0.5385,
+        "topm_acc_simpoint": 0.7231,
+        "topm_acc_random": 0.7077,
+        "regret_model": 0.315,
+        "regret_regressor": 0.4419,
+        "regret_simpoint": 0.1143,
+        "regret_random": 0.1989,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.6546,
+        "topm_acc_seqpred": 0.6154,
+        "regret_seqpred": 0.1063
+      },
+      "10": {
+        "top1_model": 0.2308,
+        "top1_regressor": 0.1538,
+        "top1_simpoint": 0.5385,
+        "top1_random": 0.6615,
+        "pairwise_acc_model": 0.5049,
+        "pairwise_acc_regressor": 0.4526,
+        "pairwise_acc_simpoint": 0.7026,
+        "pairwise_acc_random": 0.7483,
+        "topm_acc_model": 0.5385,
+        "topm_acc_regressor": 0.5385,
+        "topm_acc_simpoint": 0.641,
+        "topm_acc_random": 0.7846,
+        "regret_model": 0.3812,
+        "regret_regressor": 0.4419,
+        "regret_simpoint": 0.1844,
+        "regret_random": 0.1253,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.6912,
+        "topm_acc_seqpred": 0.641,
+        "regret_seqpred": 0.0661
+      },
+      "20": {
+        "top1_model": 0.2308,
+        "top1_regressor": 0.1538,
+        "top1_simpoint": 0.6615,
+        "top1_random": 0.6308,
+        "pairwise_acc_model": 0.5086,
+        "pairwise_acc_regressor": 0.4678,
+        "pairwise_acc_simpoint": 0.7718,
+        "pairwise_acc_random": 0.813,
+        "topm_acc_model": 0.5128,
+        "topm_acc_regressor": 0.5385,
+        "topm_acc_simpoint": 0.759,
+        "topm_acc_random": 0.8051,
+        "regret_model": 0.3812,
+        "regret_regressor": 0.4419,
+        "regret_simpoint": 0.0811,
+        "regret_random": 0.1467,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.7168,
+        "topm_acc_seqpred": 0.6154,
+        "regret_seqpred": 0.0661
+      },
+      "50": {
+        "top1_model": 0.7692,
+        "top1_regressor": 0.7692,
+        "top1_simpoint": 0.7846,
+        "top1_random": 0.7231,
+        "pairwise_acc_model": 0.8163,
+        "pairwise_acc_regressor": 0.8013,
+        "pairwise_acc_simpoint": 0.8335,
+        "pairwise_acc_random": 0.8599,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.7949,
+        "topm_acc_simpoint": 0.841,
+        "topm_acc_random": 0.8718,
+        "regret_model": 0.0725,
+        "regret_regressor": 0.0398,
+        "regret_simpoint": 0.0458,
+        "regret_random": 0.0607,
+        "top1_seqpred": 0.6923,
+        "pairwise_acc_seqpred": 0.7755,
+        "topm_acc_seqpred": 0.7179,
+        "regret_seqpred": 0.074
+      }
+    },
+    "btb_miss_rate": {
+      "1": {
+        "top1_model": 0.4615,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.4308,
+        "top1_random": 0.4615,
+        "pairwise_acc_model": 0.4648,
+        "pairwise_acc_regressor": 0.4689,
+        "pairwise_acc_simpoint": 0.531,
+        "pairwise_acc_random": 0.4002,
+        "topm_acc_model": 0.6667,
+        "topm_acc_regressor": 0.6667,
+        "topm_acc_simpoint": 0.641,
+        "topm_acc_random": 0.6154,
+        "regret_model": 0.3591,
+        "regret_regressor": 0.3783,
+        "regret_simpoint": 0.4444,
+        "regret_random": 0.4253,
+        "top1_seqpred": 0.2308,
+        "pairwise_acc_seqpred": 0.4626,
+        "topm_acc_seqpred": 0.5897,
+        "regret_seqpred": 0.565
+      },
+      "2": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.8308,
+        "top1_random": 0.6154,
+        "pairwise_acc_model": 0.596,
+        "pairwise_acc_regressor": 0.5837,
+        "pairwise_acc_simpoint": 0.6737,
+        "pairwise_acc_random": 0.5658,
+        "topm_acc_model": 0.7692,
+        "topm_acc_regressor": 0.7179,
+        "topm_acc_simpoint": 0.7385,
+        "topm_acc_random": 0.6974,
+        "regret_model": 0.252,
+        "regret_regressor": 0.3078,
+        "regret_simpoint": 0.1149,
+        "regret_random": 0.2531,
+        "top1_seqpred": 0.1538,
+        "pairwise_acc_seqpred": 0.5469,
+        "topm_acc_seqpred": 0.6923,
+        "regret_seqpred": 0.5367
+      },
+      "5": {
+        "top1_model": 0.5385,
+        "top1_regressor": 0.4615,
+        "top1_simpoint": 0.7231,
+        "top1_random": 0.8,
+        "pairwise_acc_model": 0.6582,
+        "pairwise_acc_regressor": 0.6841,
+        "pairwise_acc_simpoint": 0.7225,
+        "pairwise_acc_random": 0.7253,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.7949,
+        "topm_acc_simpoint": 0.7641,
+        "topm_acc_random": 0.7282,
+        "regret_model": 0.2879,
+        "regret_regressor": 0.28,
+        "regret_simpoint": 0.1464,
+        "regret_random": 0.1044,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.6604,
+        "topm_acc_seqpred": 0.7436,
+        "regret_seqpred": 0.3289
+      },
+      "10": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.8308,
+        "top1_random": 0.8,
+        "pairwise_acc_model": 0.7141,
+        "pairwise_acc_regressor": 0.6951,
+        "pairwise_acc_simpoint": 0.8285,
+        "pairwise_acc_random": 0.7974,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.8513,
+        "topm_acc_random": 0.7744,
+        "regret_model": 0.2315,
+        "regret_regressor": 0.2037,
+        "regret_simpoint": 0.0536,
+        "regret_random": 0.0762,
+        "top1_seqpred": 0.5385,
+        "pairwise_acc_seqpred": 0.6934,
+        "topm_acc_seqpred": 0.7692,
+        "regret_seqpred": 0.2806
+      },
+      "20": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.6923,
+        "top1_simpoint": 0.8923,
+        "top1_random": 0.8769,
+        "pairwise_acc_model": 0.7068,
+        "pairwise_acc_regressor": 0.739,
+        "pairwise_acc_simpoint": 0.8624,
+        "pairwise_acc_random": 0.8156,
+        "topm_acc_model": 0.8462,
+        "topm_acc_regressor": 0.8462,
+        "topm_acc_simpoint": 0.8667,
+        "topm_acc_random": 0.7949,
+        "regret_model": 0.2315,
+        "regret_regressor": 0.1584,
+        "regret_simpoint": 0.0397,
+        "regret_random": 0.052,
+        "top1_seqpred": 0.4615,
+        "pairwise_acc_seqpred": 0.7227,
+        "topm_acc_seqpred": 0.8462,
+        "regret_seqpred": 0.3087
+      },
+      "50": {
+        "top1_model": 0.6154,
+        "top1_regressor": 0.6154,
+        "top1_simpoint": 0.8615,
+        "top1_random": 0.9231,
+        "pairwise_acc_model": 0.7581,
+        "pairwise_acc_regressor": 0.7872,
+        "pairwise_acc_simpoint": 0.9068,
+        "pairwise_acc_random": 0.8745,
+        "topm_acc_model": 0.8718,
+        "topm_acc_regressor": 0.8974,
+        "topm_acc_simpoint": 0.9231,
+        "topm_acc_random": 0.8513,
+        "regret_model": 0.2037,
+        "regret_regressor": 0.2037,
+        "regret_simpoint": 0.0582,
+        "regret_random": 0.0205,
+        "top1_seqpred": 0.6154,
+        "pairwise_acc_seqpred": 0.8238,
+        "topm_acc_seqpred": 0.8974,
+        "regret_seqpred": 0.1406
+      }
+    },
+    "n_groups": 13,
+    "hw_per_group": 8,
+    "candidates_per_group": 7,
+    "tail_frac": 0.05,
+    "top_m": 3,
+    "multi_selector": "max_ranknorm"
+  },
+  "seqpred_coverage": {
+    "n_requested_items": 177493,
+    "n_served_items": 176891,
+    "n_dropped_no_features": 602,
+    "n_dropped_no_hw_vector": 0,
+    "n_intervals_requested": 9341,
+    "n_intervals_served": 9298,
+    "n_intervals_dropped_no_features": 43,
+    "served_fraction": 0.9966083169477106
+  }
+}
